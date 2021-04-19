@@ -37,7 +37,13 @@ Primerose Cottage website will meet users needs by:
 
 ## Technologies Used 
 
-Code for Find Us page taken from [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript)
+* [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript) has been used for my find us page map.
+* [Google Fonts](https://https://fonts.google.com/) has been used for my.
+* [Font awesome](https://fontawesome.com/) has been used for my social media links in my header and footer.
+* [Hover.CSS](https://ianlunn.github.io/Hover/) has been used for my menu bar hover.
+* [CDNJS](https://cdnjs.com/libraries?q=hover) has been used for my menu bar hover.
+* [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) has been used throughout my project.
+* [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js)
 
 ## Testing
 
@@ -64,6 +70,10 @@ Code for Find Us page taken from [Google API](https://developers.google.com/maps
 
 #### CSS
 
+
+#### Javascript
+Code for find us page map taken from [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript) and edited to fit project.
+Code for find us page map taken from [Code institue](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/tree/master/01-GoogleMaps/04-rendering_the_map) and editde to fit project.
 
 ## Media
 

@@ -1,15 +1,29 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&display=swap');
 
 
 
 /*---------------------------------------------------------------------------------fonts, buttons, general----*/ 
 
 
+body {
+    font-family: 'noto sans HK', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
 
 /*---------------------------------------------------------------------------------Index----*/ 
 
-
+.background-image {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
 
 /*---------------------------------------------------------------------------------Gallery----*/ 
 

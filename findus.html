@@ -14,10 +14,10 @@
 </head>
 <body>
     <header>
-            <div class="container">       
+            <div class="container heading">       
             <div class="row">
-                <div class="col heading">
-                    <h1 class="name">Primesrose Cottage</h1>
+                <div class="col heading-font">
+                    <h1 class="name">Primerose Cottage</h1>
                 </div>
             </div>
         </div> 
@@ -56,7 +56,11 @@
             </div>
         
     </header>
-    <section class="googlemap">
+    <section>
+        <h2 class="heading2">Find us</h2>
+        <p class="address">
+            Primerose Cottage <br>Porthleven <br>Helston <br>Cornwall
+        </p>
         <div id="map"></div>
     </section>
     <footer>
@@ -65,8 +69,8 @@
     <script>
         function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 2,
-                center: { lat: -50.0862443, lng: 5.3109088 }
+                zoom: 16,
+                center: { lat: 50.086221, lng: -5.310867 }
             })
         }
     </script>

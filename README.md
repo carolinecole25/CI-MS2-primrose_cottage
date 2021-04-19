@@ -37,12 +37,15 @@ Primerose Cottage website will meet users needs by:
 
 ## Technologies Used 
 
+Code for Find Us page taken from [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript)
+
 ## Testing
 
-## Testing client stories from UX section of README.md
+### Testing client stories from UX section of readme
 
 ### Bugs Discovered 
-#### Solved bugs
+
+### Solved bugs
 
 
 ## Deployment
@@ -53,16 +56,16 @@ Primerose Cottage website will meet users needs by:
 
 ## Credits
 
-### Code
+#### Code
 
 
 #### HTML
 
 
- #### CSS
+#### CSS
 
 
- ## Media
+## Media
 
 
- ## Acknowledgements
+## Acknowledgements

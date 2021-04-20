@@ -3,7 +3,7 @@
 
 
 
-/*---------------------------------------------------------------------------------fonts, buttons, general----*/ 
+/*---------------------------------------------------------------------------------fonts, buttons, colours, nav bar, general----*/ 
 
 
 body {
@@ -12,6 +12,24 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+
+.navbar-background {
+    border-color: #2a76da80;
+    background-color: #2a76da80;
+    color: black;
+}
+
+.heading-background {
+    border-color: #2a76da80;
+    background-color: #2a76da80;
+    color: black;
+}
+
+.subheading {
+    color: black;
+    background-color: #2a76da80;
 }
 
 
@@ -35,8 +53,14 @@ body {
 /*---------------------------------------------------------------------------------Find us----*/ 
 
 
+.subheading {
+    background-color: #2a76da80;
+}
+
 #map {
     height: 500px;
     width: 1000px;
     position: relative;
+    margin: 10px, auto;
+    padding: 50px;
 }

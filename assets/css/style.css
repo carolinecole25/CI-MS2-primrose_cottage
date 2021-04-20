@@ -15,23 +15,9 @@ body {
 }
 
 
-.navbar-background {
-    border-color: #2a76da80;
-    background-color: #2a76da80;
-    color: black;
+.header-background {
+    background-color: #147baac5;
 }
-
-.heading-background {
-    border-color: #2a76da80;
-    background-color: #2a76da80;
-    color: black;
-}
-
-.subheading {
-    color: black;
-    background-color: #2a76da80;
-}
-
 
 
 /*---------------------------------------------------------------------------------Index----*/ 
@@ -58,9 +44,11 @@ body {
 }
 
 #map {
-    height: 500px;
-    width: 1000px;
+    height: 80%;
+    width: 80%;
     position: relative;
-    margin: 10px, auto;
-    padding: 50px;
+    overflow: hidden;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 20rem;
 }

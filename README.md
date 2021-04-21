@@ -66,7 +66,7 @@ Primerose Cottage website will meet users needs by:
 
 
 #### HTML
-
+Code for Nav bar taken from [Bootstrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.
 
 #### CSS
 

@@ -14,9 +14,8 @@ body {
     text-align: center;
 }
 
-
-.header-background {
-    background-color: #147baac5;
+.nav-section {
+    margin-top: 20px;
 }
 
 
@@ -38,10 +37,6 @@ body {
 
 /*---------------------------------------------------------------------------------Find us----*/ 
 
-
-.subheading {
-    background-color: #2a76da80;
-}
 
 #map {
     height: 80%;

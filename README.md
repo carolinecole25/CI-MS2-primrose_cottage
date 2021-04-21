@@ -51,8 +51,10 @@ Primerose Cottage website will meet users needs by:
 
 ### Bugs Discovered 
 
-### Solved bugs
 
+
+### Solved bugs
+* The background image was not displaying on my index.html page, I used [W3Schools](https://www.w3schools.com/cssref/pr_pos_z-index.asp) to help by changing the link to my image and adding `z-index: 1000;` and it worked. 
 
 ## Deployment
 

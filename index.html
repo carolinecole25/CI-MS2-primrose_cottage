@@ -10,50 +10,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Primerose Cottage</title>
+    <title>Primrose Cottage</title>
 </head>
+
+
 <body>
-            <!--menu bar section this will feature on all pages-->
-        <div class="container text-center nav-section">
-            <div class="row">
-                <!--nav bar code this will feature on all pages-->
-                <!--credit: this code is taken from https://getbootstrap.com/docs/4.1/components/navbar/-->
-                <nav class="navbar navbar-expand-lg navbar-light">
+
+    <!----------------------------------------------Header and site navigation-->
+    <header class="scroll">
+        <a href="#" class="primerose">Primrose Cottage</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <h3 class="nav-heading text-center" href="index.html">Primerose Cottage</h3>
-                <a href="index.html"></a>
-                <div class="container">
-                <div class="row collapse navbar-collapse" id="main-navbar">
-                    <div class="col">
-                    <ul id="nav" class="list-inline menu navbar-nav mr-auto">
-                        <li class="col-6 col-sm-3 list-inline-item nav-item active">
-                            <a href="index1.html" class="hvr-grow"><span>Home</span></a>
-                        </li>
-                        <li class="col-6 col-sm-3 list-inline-item nav-item">
-                            <a href="gallery.html" class="hvr-grow"><span>Gallery</span></a>
-                        </li>
-                        <li class="col-6 col-sm-3 list-inline-item nav-item">
-                            <a href="explore.html" class="hvr-grow"><span>Explore</span></a>
-                        </li>
-                        <li class="col-6 col-sm-3 list-inline-item nav-item">
-                            <a href="findus.html" class="hvr-grow"><span>Find Us</span></a>
-                        </li>
-                    </ul>
-                </div>
+        <ul class="row collapse navbar-collapse menu navbar-nav mr-auto"" id="main-navbar">
+            <li class="nav-item active"><a href="index.html">Home</a></li>
+            <li class="nav-item active"><a href="gallery.html">Gallery</a></li>
+            <li class="nav-item active"><a href="explore.html">Explore</a></li>
+            <li class="nav-item active"><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <!-------------------------------------------------------site navigation-->
+    <section class="scrolling-menu" id="porthleven"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("scroll", window.scrollY > 0);
+        })
+    </script>
+    <section class="introduction">
+    <h2 id="description">Welcome to Primrose Cottage</h2>
+    <p>Lovingly refurbished, this traditional cottage is ideal for a family of 5 or two couples to enjoy Porthleven and the surrounding Cornish Coast.</p>
+    <a href="#" class="button">Book here with Above the Beach</a>
+    </section>
+    <!-----------------------------------------------Site footer-->
+
+    <!--credit: code taken from https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download and edited to fit project-->
+    <footer class="container-fluid">
+        <div class="row site-footer">
+            <div class="col-sm-4">
+                <a href="contact.html" class="hvr-grow" rel="noreferrer"><span>Find us</span></a>
+                <i class= aria-hidden="true"></i>
             </div>
+            <div class="col-sm-4">
+                <a href="index.html" class="hvr-grow">Book with Above the Beach</a>
             </div>
-            </nav>
+            <div class="col-sm-4">
+                <a href="https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage" target="_blank" class="hvr-grow" rel="noreferrer"><span>Book with Above the Beach</span></a>
+                <i class= aria-hidden="true"></i>
             </div>
         </div>
-        <section>
-            <a href="https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage" target="_blank" class="btn btn-primary booking-link index-btn" aria-pressed="false" role="button" id="button">Book here with Above the Beach</a>
-            <img src="assets/images/IMG_background.jpg" alt="Porthleven Harbour" class="background-image">
-        </section>
-    </header>
-    <footer>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>

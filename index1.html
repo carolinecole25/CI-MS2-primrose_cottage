@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--links-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Primerose Cottage</title>
+</head>
+<body>
+    <header class="scroll">
+        <a href="#" class="primerose">Primerose Cottage</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        <ul class="row collapse navbar-collapse menu navbar-nav mr-auto"" id="main-navbar">
+            <li class="nav-item active"><a href="#">Home</a></li>
+            <li class="nav-item active"><a href="#">Gallery</a></li>
+            <li class="nav-item active"><a href="#">Explore</a></li>
+            <li class="nav-item active"><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <section class="scrolling-menu"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("scroll", window.scrollY > 0);
+        })
+    </script>
+
+            <!--credit: code taken from https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download and edited to fit project-->
+    <footer class="container-fluid">
+        <div class="row site-footer">
+            <div class="col-sm-4">
+                <a href="https://www.instagram.com/colecaroline_/?hl=en" target="_blank" class="hvr-grow" rel="noreferrer"><span>Instagram</span></a>
+                <i class="fa fa-instagram social-links" aria-hidden="true"></i>
+            </div>
+            <div class="col-sm-4">
+                <a href="index.html" class="hvr-grow">Caroline Cole</a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://www.youtube.com/results?search_query=colecaroline_" target="_blank" class="hvr-grow" rel="noreferrer"><span>Youtube</span></a>
+                <i class="fa fa-youtube-square social-links" aria-hidden="true"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

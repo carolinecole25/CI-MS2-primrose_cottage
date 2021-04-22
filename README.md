@@ -79,6 +79,11 @@ Code for find us page map taken from [Google API](https://developers.google.com/
 Code for find us page map taken from [Code institue](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/tree/master/01-GoogleMaps/04-rendering_the_map) and editde to fit project.
 
 ## Media
+* Images for the gallery page have been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
+
+## Text 
+* Text for home page descibing the property has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
+* Text for gallery page has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
 
 
 ## Acknowledgements

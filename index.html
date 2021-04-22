@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--links-->
+    <!-----------------------------------------------------links-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
@@ -16,7 +16,7 @@
 
 <body>
 
-    <!----------------------------------------------Header and site navigation-->
+    <!-------------------------------------------------Header and site navigation-->
     <header class="scroll">
         <a href="#" class="primerose">Primrose Cottage</a>
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -31,20 +31,24 @@
         </ul>
         </nav>
     </header>
-    <!-------------------------------------------------------site navigation-->
-    <section class="scrolling-menu" id="porthleven"></section>
+    <!-------------------------------------------------------background image-->
+    <section class="scrolling-menu" id="porthleven">
+    <!-------------------------------------------------------Introduction and link to booking-->
+        <div class="container introduction text-center">
+            <h2 id="description">Welcome to Primrose Cottage</h2>
+            <p>Lovingly refurbished, this traditional cottage is ideal for a family of 5 or two couples to enjoy Porthleven and the surrounding Cornish Coast.</p>
+            <a href="#" class="button">Book here with Above the Beach</a>
+        </div>
+    </section>
+    <!------------------------------------------------------JS for site nav scrolling navbar-->
     <script type="text/javascript">
         window.addEventListener("scroll", function(){
             var header = document.querySelector("header");
             header.classList.toggle("scroll", window.scrollY > 0);
         })
     </script>
-    <section class="introduction">
-    <h2 id="description">Welcome to Primrose Cottage</h2>
-    <p>Lovingly refurbished, this traditional cottage is ideal for a family of 5 or two couples to enjoy Porthleven and the surrounding Cornish Coast.</p>
-    <a href="#" class="button">Book here with Above the Beach</a>
-    </section>
-    <!-----------------------------------------------Site footer-->
+ 
+    <!------------------------------------------------------Site footer-->
 
     <!--credit: code taken from https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download and edited to fit project-->
     <footer class="container-fluid">

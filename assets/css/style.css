@@ -11,16 +11,6 @@ body {
     margin: 0;
 }
 
-#porthleven {
-    background-image: url(/assets/images/IMG_background.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    position: relative;
-    background-attachment: scroll;
-}
-
 
 .text-center {
     text-align: center;
@@ -101,6 +91,16 @@ header.scroll {
 
 /*---------------------------------------------------------------------------------Index----*/ 
 
+#porthleven {
+    background-image: url(/assets/images/IMG_background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    background-attachment: scroll;
+}
+
 .introduction {
     background-color: #ffffffb6;
     display: inline-block;
@@ -119,6 +119,17 @@ header.scroll {
     text-decoration: none;
     color: #000000;
 }
+
+/*---------------------------------------------------------------------------------Gallery, Contact & Explore background----*/
+#porthleven2 {
+    background-image: url(/assets/images/IMG_7331.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    background-attachment: scroll;
+}
 /*---------------------------------------------------------------------------------Gallery----*/ 
 
 
@@ -126,7 +137,7 @@ header.scroll {
 /*---------------------------------------------------------------------------------Explore----*/ 
 
 
-/*---------------------------------------------------------------------------------Find us----*/ 
+/*---------------------------------------------------------------------------------Contact----*/ 
 
 
 #map {

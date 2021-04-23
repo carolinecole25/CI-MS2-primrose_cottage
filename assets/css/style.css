@@ -217,13 +217,20 @@ slideshow_button--left {
 
 
 #map {
-    height: 80%;
-    width: 80%;
+    height: 400px;
+    width: 100%;
     position: relative;
     overflow: hidden;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    padding: 20rem;
+}
+
+.address {
+    padding-top: 100px;
+}
+
+.contact-form {
+    position: relative;
+    padding-top: 400px;
+
 }
 
 

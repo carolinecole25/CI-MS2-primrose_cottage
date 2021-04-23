@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 
 
@@ -7,7 +8,7 @@
 
 
 body {
-    font-family: 'noto sans HK', sans-serif;
+    font-family: 'fjalla', sans-serif;
     margin: 0;
 }
 
@@ -130,7 +131,7 @@ header.scroll {
 }
 
 /*---------------------------------------------------------------------------------Gallery, Contact & Explore background----*/
-#porthleven2 {
+#porthleven3 {
     background-image: url(/assets/images/IMG_7331.jpg);
     height: 100vh;
     background-size: cover;
@@ -138,6 +139,21 @@ header.scroll {
     display: flex;
     position: relative;
     background-attachment: scroll;
+}
+
+
+
+#porthleven2 {
+    background-image: url(/assets/images/porthleven2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    background-attachment: scroll;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 /*---------------------------------------------------------------------------------Gallery----*/ 
 
@@ -225,6 +241,10 @@ slideshow_button--left {
 
 .address {
     padding-top: 100px;
+}
+
+.address-wording {
+    background-color: ##ffffffb6;
 }
 
 .contact-form {

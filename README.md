@@ -6,22 +6,37 @@
 The primary goal for Primrose Cottage is to provide a userfriendly, fresh and innovative website which leaves users knowing all about Primrose Cottage and it's surrounding areas. My target audience will be 25-60 year olds who are looking for a place to stay in Cornwall. 
 
 My user goals are:
-* To view Primrose Cottage website 
+* To view Primrose Cottage website and see it's natural charm.
+* The website design to suit the cottage and it's location.
+* A visuslly appealing website, leaving users returning and wanting to visit Primrose Cottage.
+* Userfriendly wesbite. 
 
 
 Primerose Cottage website will meet users needs by:
-* 
+* The website will contain a gallery page which shows interal and external imagery of the cottage.
+* The website will contain images of the town the cottage is location, keeping the theme through the website.
+* All areas of my websute are clearly layed out and easy to use.
+* The website is resposive and easy to navigate through.
 
 
 ### Developer and Business Goals
 * Create a professional website which is user friendly, innovative and stylish.
 * Use Javascript confidently and incorporate it will within in my website.
 * To add this to my portfolio and be be proud of the work I have created.
-* 
+* Create a website that shows Primrose Cottage's natural charm effortlessly.
+
 
 ### User Stories 
+* The ability to easily use and navigate the website.
+* Relavant information regarding the cottage, it's location and leaves the users happy with the information provided.
+* A functioning contact us page so if the users does have any questions they can get in touch.
+* Visual icones and images that suit the theme of the website.
+
 
 ### Design choices 
+I designed this website using images taken of the town Primrose Cottage is location. I chose to use these images becuase I want the user to know straight away how idyllic the area is so they continue to scroll through the website.
+
+
 
 
 ### Fonts

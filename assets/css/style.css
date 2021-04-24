@@ -100,8 +100,8 @@ header.scroll {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vh;
-    height: 50vh;
+    height: 20vh;
+    width: 100vh;
 }
 
 
@@ -121,7 +121,6 @@ header.scroll {
 }
 
 
-
 .button {
     border: #000000;
     text-decoration: none;
@@ -136,15 +135,6 @@ header.scroll {
 }
 
 /*---------------------------------------------------------------------------------Gallery, Contact & Explore background----*/
-#porthleven3 {
-    background-image: url(/assets/images/IMG_7331.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    position: relative;
-    background-attachment: scroll;
-}
 
 
 #porthleven2 {
@@ -247,10 +237,9 @@ slideshow_button--left {
 }
 
 .contact-form {
-    position: relative;
     padding-top: 400px;
 
-}
+} 
 
 /*---------------------------------------------------------------------------------footer----*/
 

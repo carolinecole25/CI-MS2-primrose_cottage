@@ -3,15 +3,21 @@
 ## UX
 
 ### Project Goals
+The primary goal for Primrose Cottage is to provide a userfriendly, fresh and innovative website which leaves users knowing all about Primrose Cottage and it's surrounding areas. My target audience will be 25-60 year olds who are looking for a place to stay in Cornwall. 
 
 My user goals are:
+* To view Primrose Cottage website 
 
 
 Primerose Cottage website will meet users needs by:
+* 
 
 
 ### Developer and Business Goals
-
+* Create a professional website which is user friendly, innovative and stylish.
+* Use Javascript confidently and incorporate it will within in my website.
+* To add this to my portfolio and be be proud of the work I have created.
+* 
 
 ### User Stories 
 

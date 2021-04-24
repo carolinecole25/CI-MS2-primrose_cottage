@@ -89,6 +89,30 @@ header.scroll {
     z-index: 1000;
 }
 
+/*---------------------------------------------------------------------------------Page introduction----*/ 
+
+.introduction {
+    background-color: #ffffffb6;
+    display: flex;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 50vh;
+}
+
+
+.introduction-title {
+    font-size: 10vw;
+}
+
+.introduction-description {
+    font-size: 10vw;
+}
+
 
 /*---------------------------------------------------------------------------------Index----*/ 
 
@@ -105,17 +129,7 @@ header.scroll {
     justify-content: center;
 }
 
-.introduction {
-    background-color: #ffffffb6;
-    display: flex;
-    
-    margin-left: 20vh;
-    margin-right: 20vh;
-    box-sizing: border-box;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .button {
     border: #000000;
@@ -142,7 +156,6 @@ header.scroll {
 }
 
 
-
 #porthleven2 {
     background-image: url(/assets/images/porthleven2.jpg);
     height: 100vh;
@@ -161,7 +174,7 @@ header.scroll {
 
 .slideshow {
     position: relative;
-    height: 500px;
+    height: 800px;
     width: 70%;
     margin: 0 auto;
 }
@@ -231,7 +244,6 @@ slideshow_button--left {
 
 /*---------------------------------------------------------------------------------Contact----*/ 
 
-
 #map {
     height: 400px;
     width: 100%;
@@ -240,11 +252,7 @@ slideshow_button--left {
 }
 
 .address {
-    padding-top: 100px;
-}
-
-.address-wording {
-    background-color: ##ffffffb6;
+    background-color: #ffffffb6;
 }
 
 .contact-form {
@@ -252,7 +260,6 @@ slideshow_button--left {
     padding-top: 400px;
 
 }
-
 
 /*---------------------------------------------------------------------------------footer----*/
 

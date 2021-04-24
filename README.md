@@ -59,7 +59,11 @@ I chose to use an image of Porthleven as a background to this website because th
 * I used google maps API for the map on the contact us page.
 
 ## Wireframes 
-
+These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
+[Home page]()
+[Gallery]()
+[Explore]()
+[Contact]()
 
 ## Technologies Used 
 
@@ -85,8 +89,37 @@ I chose to use an image of Porthleven as a background to this website because th
 
 ## Deployment
 
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+1. Log into **Github**.
+2. From the list of repositories on the screen, select **carolinecole**.
+3. From the menu items near the top of the page, select **settings**.
+4. Scroll down to the **Github Pages** section
+5. Under source click the drop-down menu labelled **None** and selcted **master branch/ main**.
+6. On selecting **master branch** a section drop-down will appear, select **root**.
+7. Select **save**, it might take 5-10 minutes for Github to finish building the site the first time.
+8. Refresh your **GitHub Pages** section to get the link to the deployed wesbite. 
 
-## How to run this project locally
+## How to run this project locally 
+To clone this project into Gitpod you will need:
+1. A Github accoun [Github account](https://github.com/)
+2. Use the Chrome browser.
+
+Then follow these steps:
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+2. After installation, restart browser.
+3. Log into [Gitpod](https://www.gitpod.io/) with your gitpod account.
+4. Navigate to the [Porject Github Repository](https://github.com/carolinecole25/travel)
+5. Clear the green Gitpod button in the top right corner of the repository.
+6. This will trigger a new gitpos workspace to be created from the code in github where you can work locally. 
+
+To work on the project code within a local IDE such as VSCode, Pycharm:
+1. Follow this link to the [Porject Github Repository](https://github.com/carolinecole25/travel).
+2. Under the repository name click **Clone / Download**.
+3. In the clone with HTTPs section, copy the URL for the repository.
+4. In your local IDE open the terminal.
+5. Change the current working directory to the location you want the cloned directory to be.
+6. Type git clone, and then paste the URL you copied.
+7. select enter and your local clone will be created.
 
 
 ## Credits

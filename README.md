@@ -35,23 +35,28 @@ Primerose Cottage website will meet users needs by:
 
 ### Design choices 
 I designed this website using images taken of the town Primrose Cottage is location. I chose to use these images becuase I want the user to know straight away how idyllic the area is so they continue to scroll through the website.
-
-
-
+I wanted the page to be easy to read, navigate and have a relaxed feel to it. The following design choices were made with this in mind:
 
 ### Fonts
-
+I chose ...... front because it is easy to read, simple and stylish. 
 
 ### Icons
-
+I used arrows from [Font Awesome](https://fontawesome.com/) for the gallery page to make it easy to navigate.
 
 ### Colours
+I chose to use an image as a background to my page which is bright with the colours of the sky, sea and harbour. I am pleased with the outcome of this because it looks effective and shows the users the location as soon as they enter the page.
+I chose to use a slightly transparent white background to my navigation bar and the text box containing the introduction to each page. I chose this the colours wouldn't detract from the background image. 
+I chose to use black font because I didn't want to destract from the image and I wanted the writing to be easy to read.
+
 
 ### Backgrounds 
+I chose to use an image of Porthleven as a background to this website because that is the town the cottage is location; this suited the theme.
 
 
 ### Images 
-
+* I used an image as the background for every page with the introduction placed on top of this. I chose to do this because I wanted the theme to be the same across the website and have a nice flow to it.
+* I used images on the gallery page to show the cottage.
+* I used google maps API for the map on the contact us page.
 
 ## Wireframes 
 
@@ -69,6 +74,7 @@ I designed this website using images taken of the town Primrose Cottage is locat
 ## Testing
 
 ### Testing client stories from UX section of readme
+
 
 ### Bugs Discovered 
 

@@ -41,23 +41,22 @@
     <!-------------------------------------------------------map and address-->
         <div class="container">
             <div class="row">
-                <div id="map"></div>
-                <div class="col address">
-                <p class="address-wording">
-                Primrose Cottage <br> Unity Road <br> Porthleven <br> Cornwall
-                </p>
-            </div>
+                <div class="col-md-3 id="map"></div>
+                    <p class="address-wording">
+                    Primrose Cottage <br> Unity Road <br> Porthleven <br> Cornwall
+                    </p>
+                    </div>
             <!-------------------------------------------------------contact form-->
-            <div class="col">
-                <form class="contact-form">
-                <input type="text" name="fname" id="fullname" class="form-control" placeholder="Name" required>
-                <input type="text" name="email" class="form-control" placeholder="Email" required>
-                <textarea rows="4" name="desciption" id="desciption" class="form-control" placeholder="Ask us a question" required></textarea>
-                <button type="submit" class="btn btn-secondary btn-contact">Send</button>
-                </form>
+                    <div class="col-md-3">
+                    <form class="contact-form">
+                    <input type="text" name="fname" id="fullname" class="form-control" placeholder="Name" required>
+                    <input type="text" name="email" class="form-control" placeholder="Email" required>
+                    <textarea rows="4" name="desciption" id="desciption" class="form-control" placeholder="Ask us a question" required></textarea>
+                    <button type="submit" class="btn btn-secondary btn-contact">Send</button>
+                    </form>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
     <!--credit: code taken from https://developers.google.com/maps/documentation/javascript/marker-clustering-->
     <script>
         function initMap() {

@@ -100,7 +100,7 @@ header.scroll {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 30vh;
     width: 100vh;
 }
 
@@ -117,7 +117,6 @@ header.scroll {
     background-attachment: scroll;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 
@@ -139,6 +138,7 @@ header.scroll {
 
 #porthleven2 {
     background-image: url(/assets/images/porthleven2.jpg);
+    width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -147,7 +147,6 @@ header.scroll {
     background-attachment: scroll;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 /*---------------------------------------------------------------------------------Gallery----*/ 
 
@@ -166,7 +165,7 @@ header.scroll {
 }
 
 .slideshow-container {
-    padding: 40px;
+    padding: 5px;
 }
 
 .slideshow-track {
@@ -232,14 +231,11 @@ slideshow_button--left {
     overflow: hidden;
 }
 
-.address {
-    background-color: #ffffffb6;
+.address-row {
+    float: right;
 }
 
-.contact-form {
-    padding-top: 400px;
 
-} 
 
 /*---------------------------------------------------------------------------------footer----*/
 

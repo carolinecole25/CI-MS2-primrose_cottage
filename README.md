@@ -81,7 +81,7 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 
 
 ### Bugs Discovered 
-
+* I added an image to all my pages and when I added these images I used ``height: 100vh`` in my CSS but when I added anything below this it caused a huge gap in my code. I spoke to tutor support reagrding this issue and we came to the conclusion that we needed to change it to ``height: calc(100vh - 248px)``
 
 
 ### Solved bugs

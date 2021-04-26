@@ -219,8 +219,17 @@ slideshow_button--left {
     background: #000000ee;
 }
 
+.gallery-heading {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    background-color: #e4dfd7b9;
+}
+
 .gallery-title {
     margin-left: 10%;
+    margin-right: 10%;
+    background-color: #e4dfd7b9;
 }
 
 .gallery-description {
@@ -234,10 +243,6 @@ slideshow_button--left {
     margin-bottom: 5%;
 }
 
-.gallery-heading {
-    margin-left: 10%;
-    margin-top: 2%;
-}
 
 
 /*---------------------------------------------------------------------------------Explore----*/ 
@@ -259,9 +264,14 @@ slideshow_button--left {
 .contact-content {
     padding-top: 50px;
     padding-bottom: 50px;
-    
 }
 
+.contact-heading {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #e4dfd7b9;
+    margin-top: 2%;
+}
 
 /*---------------------------------------------------------------------------------footer----*/
 

@@ -94,6 +94,7 @@ header.scroll {
 .introduction {
     background-color: #ffffffb6;
     display: flex;
+    height: 100vh;
     margin-left: 20vh;
     margin-right: 20vh;
     box-sizing: border-box;
@@ -138,7 +139,6 @@ header.scroll {
 
 #porthleven2 {
     background-image: url(/assets/images/porthleven2.jpg);
-    width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -240,16 +240,12 @@ slideshow_button--left {
 /*---------------------------------------------------------------------------------footer----*/
 
 footer {
-    margin-top: -200px;
-    margin-bottom: 0;
-    height: 100px;
-    background: #ffffffb6;
+    background: #e4dfd7e0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
-    width: 100%;
-    height: 2.5rem;
+    position: absolute;ß
+    height: 20vh;
 }
 
 .site-footer {

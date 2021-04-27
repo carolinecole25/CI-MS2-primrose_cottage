@@ -60,10 +60,10 @@ I chose to use an image of Porthleven as a background to this website because th
 
 ## Wireframes 
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
-[Home page]()
-[Gallery]()
+[Home page](assets/images/home.jpg)
+[Gallery](assets/images/contact.jpg)
 [Explore]()
-[Contact]()
+[Contact](assets/images/gallery.jpg)
 
 ## Technologies Used 
 
@@ -94,9 +94,9 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 1. Log into **Github**.
-2. From the list of repositories on the screen, select **....**.
+2. From the list of repositories on the screen, select **travel**.
 3. From the menu items near the top of the page, select **settings**.
-4. Scroll down to the **Github Pages** section
+4. Selecte **Github Pages** from the options on the left.
 5. Under source click the drop-down menu labelled **None** and selcted **master branch/ main**.
 6. On selecting **master branch** a section drop-down will appear, select **root**.
 7. Select **save**, it might take 5-10 minutes for Github to finish building the site the first time.

@@ -77,7 +77,10 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 
 ## Testing
 
+
+
 ### Testing client stories from UX section of readme
+
 
 
 ### Bugs Discovered 
@@ -125,7 +128,6 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 ## Credits
 
 #### Code
-
 
 #### HTML
 Code for Nav bar taken from [Bootstrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.

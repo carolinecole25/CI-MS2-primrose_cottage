@@ -1,6 +1,6 @@
 # Primerose Cottage
 
-https://carolinecole25.github.io/travel/ 
+https://carolinecole25.github.io/CI-MS2-primrose_cottage/
 
 ## UX
 

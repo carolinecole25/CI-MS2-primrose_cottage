@@ -28,7 +28,7 @@ function turnWhite() {
 
 const track = document.querySelector('slideshow-track');
 
-//--------------------------- Form 
+//--------------------------- contact Form 
 
 let contactForm = document.getElementById('contact-form');
 contactForm.addEventListener('submit', handleSubmit);

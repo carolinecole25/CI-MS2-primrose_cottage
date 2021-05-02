@@ -273,6 +273,19 @@ slideshow_button--left {
     margin-top: 2%;
 }
 
+.btn-contact {
+    background-color: #e4dfd7b9;
+    color: #000000;
+    border: #e4dfd7b9;
+    margin-top: 2px;
+}
+
+.error_message {
+    margin-bottom: 20px;
+    color: #000000;
+    background-color: #e4dfd7b9;
+}
+
 /*---------------------------------------------------------------------------------footer----*/
 
 footer {

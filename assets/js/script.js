@@ -28,18 +28,35 @@ function turnWhite() {
 
 const track = document.querySelector('slideshow-track');
 
-//--------------------------- contact Form 
+//--------Forms.js 
 
-let contactForm = document.getElementById('contact-form');
-contactForm.addEventListener('submit', handleSubmit);
+function validation(){
+    var name = document.getElementById("fullname").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    var error_message = document.getElementById(".error_message");
+    var text;
 
-function handleSubmit(event){
-    event.preventDefault();
-    let userName = contactForm.elements['fullname'].value;
-    let email = contactForm.elements['email'].value;
-    let message = contactForm.elements['message'].value;
+    //error_message.style.padding = "10px";
 
-    let html = `
-    <p>Hello ${userName}! Thanks for sending us a message! We will responde to ${email} as soon as possible. </p>
-`;
+    if(name.length <4){
+        text = "Please enter valid name";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+    if(message.length <10){
+        text = "Please enter valid name";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+    if(email.indexOf("@") == -1){
+        text = "Please enter a valid email address";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+    alert("Thank you for getting in touch!");
+    return true;
 }

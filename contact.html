@@ -47,7 +47,8 @@
             <div class="row">
                 <!-------------------------------------------------------contact form-->
                 <div class="col-lg-6">
-                    <form class="contact-form" id="contact-form">
+                    <div class="error_message" id="error_message"></div>
+                    <form class="contact-form" id="contact-form" onsubmit="return validation()">
                     <input type="text" name="fname" id="fullname" class="form-control" placeholder="Name" required>
                     <input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
                     <textarea rows="4" name="message" id="message" class="form-control" placeholder="Ask us a question" required></textarea>

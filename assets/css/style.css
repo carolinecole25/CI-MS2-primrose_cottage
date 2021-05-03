@@ -21,6 +21,24 @@ body {
     margin-top: 20px;
 }
 
+/* font size */
+
+@media screen and (max-width : 576px)
+{
+  body 
+  {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width : 768px)
+{
+  body
+  {
+    font-size: 80%;
+  }
+}
+
+
 /*.btn {
     visibility: hidden;
     background-color: white;
@@ -104,6 +122,15 @@ header.scroll {
     margin-right: 20%;
 }
 
+@media screen and (max-width : 576px)
+{
+  .introduction 
+  {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
 
 /*---------------------------------------------------------------------------------Index----*/ 
 
@@ -126,6 +153,12 @@ header.scroll {
     background-color:#e4dfd7b9;
 }
 
+@media screen and (max-width : 576px)
+{
+    .button {
+
+    }
+}
 
 .img-both {
     width: 50%;
@@ -230,7 +263,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    height: 20vh;
 }
 
 .site-footer {

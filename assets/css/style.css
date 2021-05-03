@@ -148,89 +148,11 @@ header.scroll {
 }
 /*---------------------------------------------------------------------------------Gallery----*/ 
 
-/*credit: used the youtube video linked in my bio to help position the photos and buttons on the gallery page */
-
-/*
-.slideshow {
-    position: relative;
-    height: 800px;
-    width: 70%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: -10%;
-}
-.slideshow-img {
-    width: 80%;
-    height: 600px;
-    object-fit: cover;
-}
-
-.slideshow-container {
-    padding: 5px;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.slideshow-track {
-    margin: 0;
-    list-style: none;
-    height: 100%;
-    position: relative;
-    height: 100%;
-    transition: transform 250ms ease-in;
-}
-
-.slideshow-slide {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-.slideshow_button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    border: 0;
-    height: 10px;
-}
-
-slideshow_button--left {
-    left: -40px;
-    cursor: pointer;
-}
-
-.slideshow-button--right {
-    right: -40px;
-    cursor: pointer;
-}
-
-.slideshow-nav {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-.slideshow-indicator {
-    border: 0;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    background: #000000a2;
-    margin: 0 12px;
-}
-
-.slideshow-indicator.current.slide {
-    background: #000000ee;
-} */
+/*---------Carousel */
 
 
 
-
-
-
+/*--- Gallery page information */
 
 .gallery-heading {
     margin-left: 10%;

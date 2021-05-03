@@ -121,6 +121,8 @@ nextButton.addEventListener('click', e => {
 
 ### Solved bugs
 * The background image was not displaying on my index.html page, I used [W3Schools](https://www.w3schools.com/cssref/pr_pos_z-index.asp) and tutor support to help by changing the link to my image and adding `z-index: 1000;` and it worked. 
+* I solved the carousel problems I was having my using [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/). This worked perfectly and I really happy with the results.
+
 
 ## Deployment
 
@@ -164,9 +166,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 #### HTML
 * Code for Nav bar taken from [Bootstrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.
 * Code for Scroll Nav Bar taken from [w3schools.com](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp) and amended to fit project.
-* Gallery page I used code explained from this [YouTube](https://www.youtube.com/watch?v=VYsVOamdB0g) video and amended it to fit my project.
-* Gallery page arrows used from [Font Awesome](https://fontawesome.com/icons/arrow-left?style=solid). 
-* Gallery page I used code explained from this [YouTube](https://www.youtube.com/watch?v=VYsVOamdB0g) video and amended it to fit my project.
+* Code for the carousel on gallery page taken from [bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) and amended to fit the project.
 
 #### CSS
 * Gallery page I used code explained from this [YouTube](https://www.youtube.com/watch?v=VYsVOamdB0g) video and amended it to fit my project.
@@ -175,8 +175,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 #### Javascript
 * Code for find us page map taken from [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript) and edited to fit project.
 * Code for find us page map taken from [Code institue](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/tree/master/01-GoogleMaps/04-rendering_the_map) and editde to fit project.
-* Gallery page I used code explained from this [YouTube](https://www.youtube.com/watch?v=VYsVOamdB0g) video and amended it to fit my project.
-* Gallery page I used code in this [Youtube](https://www.youtube.com/watch?v=gBzsE0oieio) video and amended it to suit my project.
+
 
 ## Media
 * Images for the gallery page have been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.

@@ -24,9 +24,6 @@ function turnWhite() {
     button.style.backgroundColor = "white"
 } 
 
-//--------------------------- Gallery slideshow
-
-const track = document.querySelector('slideshow-track');
 
 //--------Forms.js 
 
@@ -37,7 +34,7 @@ function validation(){
     var error_message = document.getElementById(".error_message");
     var text;
 
-    //error_message.style.padding = "10px";
+    error_message.style.padding = "10px";
 
     if(name.length <4){
         text = "Please enter valid name";
@@ -60,3 +57,19 @@ function validation(){
     alert("Thank you for getting in touch!");
     return true;
 }
+
+
+//-------Slideshow
+
+const track = document.querySelector('.slideshow-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.slideshow_button--right');
+const prevButton = document.querySelector('.slideshow_button--left');
+const dotsNav = document.querySelector('.slideshow-nav');
+const dots = Array.from(dotsNav.children);
+
+const slideSize = slides[0].getBoundingClientRect();
+const slideWidth = slideSize.width;
+console.log(slideSize);
+
+

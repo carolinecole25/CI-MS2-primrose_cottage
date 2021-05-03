@@ -280,10 +280,11 @@ slideshow_button--left {
     margin-top: 2px;
 }
 
-.error_message {
+.contact-content #error_message {
     margin-bottom: 20px;
     color: #000000;
     background-color: #e4dfd7b9;
+    padding: 0;
 }
 
 /*---------------------------------------------------------------------------------footer----*/

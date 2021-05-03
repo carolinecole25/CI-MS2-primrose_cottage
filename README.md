@@ -87,7 +87,37 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 
 ### Bugs Discovered 
 * I added an image to all my pages and when I added these images I used ``height: 100vh`` in my CSS but when I added anything below this it caused a huge gap in my code. I spoke to tutor support reagrding this issue and we came to the conclusion that we needed to change it to ``height: calc(100vh - 248px)``
+* I tried doing the carousel on the gallery page using javascript, HTML and CSS with help of this [Youtube](https://www.youtube.com/watch?v=gBzsE0oieio) video. This was not a productive use of my time and as you can see from [this image](assets/testing/carousel-js.png), it did not work well and was not responsive. The below js code is what I was using:
 
+<code> const track = document.querySelector('.slideshow-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.slideshow-button--right');
+const prevButton = document.querySelector('.slideshow_button--left');
+const dotsNav = document.querySelector('.slideshow-nav');
+const dots = Array.from(dotsNav.children);
+
+const slideWidth = slides[0].getBoundingClientRect().width;
+
+// arrange the slides next to each other 
+
+const setSlidePosition = (slide, index) => {
+    slide.style.left = slideWidth * index + 'px';
+}
+slides.forEach(setSlidePosition);
+
+const moveToSlide = (track, currentSlide, targetSlide) => {
+    track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+    currentSlide.classList.remove('current-slide');
+    targetSlide.classList.add('current-slide');
+}
+
+// when cliked right, move slides to the right 
+nextButton.addEventListener('click', e => {
+    const currentSlide = track.querySelector('.current-slide');
+    const nextSlide = currentSlide.nextElementSibling;
+    
+    moveToSlide(track, currentSlide, nextSlide);
+}); </code>
 
 ### Solved bugs
 * The background image was not displaying on my index.html page, I used [W3Schools](https://www.w3schools.com/cssref/pr_pos_z-index.asp) and tutor support to help by changing the link to my image and adding `z-index: 1000;` and it worked. 

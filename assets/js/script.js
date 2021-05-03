@@ -59,33 +59,4 @@ function validation(){
 }
 
 
-//-------Slideshow
-// credit, code taken from Youtube tutorial and amended to fit my project.
-
-const track = document.querySelector('.slideshow-track');
-const slides = Array.from(track.children);
-const nextButton = document.querySelector('.slideshow-button--right');
-const prevButton = document.querySelector('.slideshow_button--left');
-const dotsNav = document.querySelector('.slideshow-nav');
-const dots = Array.from(dotsNav.children);
-
-const slideWidth = slides[0].getBoundingClientRect().width;
-
-// arrange the slides next to each other 
-
-const setSlidePosition = (slide, index) => {
-    slide.style.left = slideWidth * index + 'px';
-}
-slides.forEach(setSlidePosition);
-
-// when cliked right, move slides to the right 
-nextButton.addEventListener('click', e => {
-    const currentSlide = track.querySelector('.current-slide');
-    const nextSlide = currentSlide.nextElementSibling;
-    const amountToMove = nextSlide.style.left;
-    //move to the next slide
-    track.style.transform = 'translateX(-' + amountToMove + ')';
-    currentSlide.classList.remove('current-slide');
-    nextSlide.classList.add('current-slide')
-});s
 

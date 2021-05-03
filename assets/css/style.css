@@ -150,6 +150,7 @@ header.scroll {
 
 /*credit: used the youtube video linked in my bio to help position the photos and buttons on the gallery page */
 
+/*
 .slideshow {
     position: relative;
     height: 800px;
@@ -167,6 +168,8 @@ header.scroll {
 .slideshow-container {
     padding: 5px;
     height: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 .slideshow-track {
@@ -191,6 +194,7 @@ header.scroll {
     transform: translateY(-50%);
     background: transparent;
     border: 0;
+    height: 10px;
 }
 
 slideshow_button--left {
@@ -220,7 +224,13 @@ slideshow_button--left {
 
 .slideshow-indicator.current.slide {
     background: #000000ee;
-}
+} */
+
+
+
+
+
+
 
 .gallery-heading {
     margin-left: 10%;

@@ -39,17 +39,6 @@ body {
 }
 
 
-/*.btn {
-    visibility: hidden;
-    background-color: white;
-    color: black;
-    transform: translateY(-250px);
-}
-
-.img-btn:hover {
-    visibility: visible;
-} /*
-
 /*---------------------------------------------------------------------------------navigation bar----*/ 
 
 header {
@@ -153,12 +142,6 @@ header.scroll {
     background-color:#e4dfd7b9;
 }
 
-@media screen and (max-width : 576px)
-{
-    .button {
-
-    }
-}
 
 .img-both {
     width: 50%;

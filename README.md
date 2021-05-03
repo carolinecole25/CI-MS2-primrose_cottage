@@ -168,6 +168,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 * Code for Scroll Nav Bar taken from [w3schools.com](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp) and amended to fit project.
 * Code for the carousel on gallery page taken from [bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) and amended to fit the project.
 * Code for footer taken from [Code Instituer](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and amended to fit project.
+* Code for explore page API taken from [Stack Over Flow](https://stackoverflow.com/questions/41970336/update-marker-and-place-types-using-radio-button-google-place) and amended to fit project.
 
 #### CSS
 * Gallery page I used code explained from this [YouTube](https://www.youtube.com/watch?v=VYsVOamdB0g) video and amended it to fit my project.
@@ -177,6 +178,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 * Code for find us page map taken from [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript) and edited to fit project.
 * Code for find us page map taken from [Code institue](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/tree/master/01-GoogleMaps/04-rendering_the_map) and editde to fit project.
 * Code for explore page places API taken from [Stack Over Flow](https://stackoverflow.com/questions/41970336/update-marker-and-place-types-using-radio-button-google-place) and amended to suit project
+* Code for the form taken from [Youtube](https://www.youtube.com/watch?v=WY4rvU4ImgE) and amended to fit project. 
 
 ## Media
 * Images for the gallery page have been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.

@@ -166,6 +166,7 @@ header.scroll {
 
 .slideshow-container {
     padding: 5px;
+    height: 100%;
 }
 
 .slideshow-track {

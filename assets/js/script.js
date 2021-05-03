@@ -60,6 +60,7 @@ function validation(){
 
 
 //-------Slideshow
+// credit, code taken from Youtube tutorial and amended to fit my project.
 
 const track = document.querySelector('.slideshow-track');
 const slides = Array.from(track.children);
@@ -86,4 +87,5 @@ nextButton.addEventListener('click', e => {
     track.style.transform = 'translateX(-' + amountToMove + ')';
     currentSlide.classList.remove('current-slide');
     nextSlide.classList.add('current-slide')
-});
+});s
+

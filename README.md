@@ -62,10 +62,10 @@ I chose to use an image of Porthleven as a background to this website because th
 
 ## Wireframes 
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
-[Home page](assets/images/home.jpg)
-[Gallery](assets/images/contact.jpg)
-[Explore]()
-[Contact](assets/images/gallery.jpg)
+[Home](assets/wireframes/home.png)
+[Gallery](assets/wireframes/contact.png)
+[Explore](assets/wireframes/explore.png)
+[Contact](assets/wireframe/gallery.png)
 
 ## Technologies Used 
 

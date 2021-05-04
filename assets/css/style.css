@@ -181,6 +181,7 @@ header.scroll {
     margin-left: 10%;
     margin-right: 10%;
     background-color: #e4dfd7b9;
+    margin-top: 2%;
 }
 
 .gallery-description {
@@ -193,6 +194,7 @@ header.scroll {
     margin-right: 10%;
     margin-bottom: 5%;
 }
+
 
 
 
@@ -253,7 +255,6 @@ footer {
 
 .site-footer {
     min-height: 50px;
-    padding: 5px, 100px;
     z-index: 1000;
 }
 

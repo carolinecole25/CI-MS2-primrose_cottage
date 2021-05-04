@@ -119,6 +119,8 @@ nextButton.addEventListener('click', e => {
     moveToSlide(track, currentSlide, nextSlide);
 }); </code>
 
+* The gallery page carousel bootstap was not centrallising, so I added it into a container. This worked really well and I am happy with the results.
+
 ### Solved bugs
 * The background image was not displaying on my index.html page, I used [W3Schools](https://www.w3schools.com/cssref/pr_pos_z-index.asp) and tutor support to help by changing the link to my image and adding `z-index: 1000;` and it worked. 
 * I solved the carousel problems I was having my using [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/). This worked perfectly and I really happy with the results.

@@ -191,12 +191,12 @@ header.scroll {
 
 
 
-
 /*---------------------------------------------------------------------------------Explore----*/ 
 
-.map-explore {
-    height: 400px;
-    width: 100%;
+.explore-info {
+    background-color: #e4dfd7b9;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 

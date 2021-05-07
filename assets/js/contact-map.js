@@ -1,18 +1,8 @@
 
 // --------------------------- Google maps 
 
-// credit: code taken from Code Institue lesson and edited to suit project, linked in README.md 
+// credit: code taken from Google API and amended to fit project.
 
- // function initMap() {
-    //         var map = new google.maps.Map(document.getElementById("map"), {
-      //           zoom: 18,
-       //          center: { lat: 50.086221, lng: -5.310867 }
-         //    });
-           //  const marker = new google.maps.Marker({
-             //   position: { lat: 50.086221, lng: -5.310867 }
-              //  map: map,
-               // });
-      //  }
 
 function initMap() {
     const myLatLng = { lat: 50.086221, lng: -5.310867 };

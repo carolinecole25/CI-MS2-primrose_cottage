@@ -199,6 +199,15 @@ header.scroll {
     margin-bottom: 2px;
 }
 
+.map-explore {
+    height: 400px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
 
 /*---------------------------------------------------------------------------------Contact----*/ 
 

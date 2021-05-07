@@ -6,7 +6,7 @@ function validation(){
     var name = document.getElementById("fullname").value;
     var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
-    var error_message = document.getElementById(".error_message");
+    var error_message = document.getElementById("error_message");
     var text;
 
     error_message.style.padding = "10px";

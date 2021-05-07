@@ -122,7 +122,7 @@ nextButton.addEventListener('click', e => {
 }); </code>
 
 * When I scrolled to the top of my page, the scrolling nav dissapearred, as you can see from [this image](/workspace/CI-MS2-primrose_cottage/assets/testing/scrolling-nav.png)
-* I added some Javascript to the contact form, but it was not popping up or performing as it should do.
+* I added some Javascript to the contact form, but it was not popping up or performing as it should do. After speaking to tutor support, it was because there was a doct in the wrong place on the ``var = document.getElementById() `` part of my code.
 * 
 
 ## Deployment

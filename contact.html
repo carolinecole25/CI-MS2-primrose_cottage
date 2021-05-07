@@ -13,13 +13,12 @@
     <title>Primrose Cottage</title>
 </head>
 
-
 <body>
 
     <!-------------------------------------------------Header and site navigation-->
     <header class="scroll">
         <a href="#" class="primerose">Primrose Cottage</a>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -39,13 +38,15 @@
         </div>
     </section>
 
-    <div class="contact-heading">
+    <!-------------------------------------------------------Subheading-->
+    <div class="gallery-heading">
         <h4>Primrose Cottage</h4>
-        <p>Unity Road <br>Porthleven <br>Cornwall <br>TD13 9DA</p>
+        <p>Porthleven - Cornwall, South Coast</p>
     </div>
+
+    <!-------------------------------------------------------contact form-->
         <div class="container contact-content">
             <div class="row">
-                <!-------------------------------------------------------contact form-->
                 <div class="col-lg-6">
                     <div id="error_message"></div>
                     <form class="contact-form" id="contact-form" onsubmit="return validation()">
@@ -54,11 +55,11 @@
                     <textarea rows="4" name="message" id="message" class="form-control" placeholder="Ask us a question" required></textarea>
                     <button id="button-send" type="submit" class="btn btn-secondary btn-contact">Send</button>
                     </form>
-                </div>
+                    </div>
                 <!-------------------------------------------------------map and address-->
                 <div class="col-lg-6 google-map" id="map"></div>
-                </div>
             </div>
+        </div>
     
     </script>
     <script scr="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"></script>

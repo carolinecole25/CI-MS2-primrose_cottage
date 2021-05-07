@@ -33,6 +33,9 @@ Primerose Cottage website will meet users needs by:
 * Relavant information regarding the cottage, it's location and leaves the users happy with the information provided.
 * A functioning contact us page so if the users does have any questions they can get in touch.
 * Visual icones and images that suit the theme of the website.
+* A fully funcitoning Explore page with information about the area.
+* Leaves users wanting to escape for a staycation because the website has made the cottage sound idyllic and wanting to explore themselves.
+* 
 
 
 ### Design choices 
@@ -40,32 +43,28 @@ I designed this website using images taken of the town Primrose Cottage is locat
 I wanted the page to be easy to read, navigate and have a relaxed feel to it. The following design choices were made with this in mind:
 
 ### Fonts
-I chose ...... front because it is easy to read, simple and stylish. 
-
-### Icons
-I used arrows from [Font Awesome](https://fontawesome.com/) for the gallery page to make it easy to navigate.
+I chose fjalla front with a back up of sans-serif because it is easy to read, simple and stylish. I liked the simplicity of it but the clarity with the bolder font, I thought it went well with the busy images on the page and the overall feel of the website.
 
 ### Colours
 I chose to use an image as a background to my page which is bright with the colours of the sky, sea and harbour. I am pleased with the outcome of this because it looks effective and shows the users the location as soon as they enter the page.
 I chose to use a slightly transparent white background to my navigation bar and the text box containing the introduction to each page. I chose this the colours wouldn't detract from the background image. 
 I chose to use black font because I didn't want to destract from the image and I wanted the writing to be easy to read.
 
-
 ### Backgrounds 
-I chose to use an image of Porthleven as a background to this website because that is the town the cottage is location; this suited the theme.
-
+I chose to use an image of Porthleven as a background to this website for the index page because that is the town the cottage is location; this suited the theme.
+For the rest of the website, I felt the front image was a bit too busy. I changed it to be an image of the a beautiful beach and the sea which I personally took when visiting myself. I felt this was very fitting and only makes the website more appealing.
 
 ### Images 
 * I used an image as the background for every page with the introduction placed on top of this. I chose to do this because I wanted the theme to be the same across the website and have a nice flow to it.
-* I used images on the gallery page to show the cottage.
+* I used images on the gallery page to show the cottage. These images were obtained [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage).
 * I used google maps API for the map on the contact us page.
 
 ## Wireframes 
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
-[Home](assets/wireframes/home.png)
-[Gallery](assets/wireframes/contact.png)
-[Explore](assets/wireframes/explore.png)
-[Contact](assets/wireframe/gallery.png)
+* [Home](/workspace/CI-MS2-primrose_cottage/assets/wireframes/home.png)
+* [Gallery](/workspace/CI-MS2-primrose_cottage/assets/wireframes/contact.png)
+* [Explore](/workspace/CI-MS2-primrose_cottage/assets/wireframes/explore.png)
+* [Contact](/workspace/CI-MS2-primrose_cottage/assets/wireframes/gallery.png)
 
 ## Technologies Used 
 
@@ -75,19 +74,22 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Hover.CSS](https://ianlunn.github.io/Hover/) has been used for my menu bar hover.
 * [CDNJS](https://cdnjs.com/libraries?q=hover) has been used for my menu bar hover.
 * [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) has been used throughout my project.
-* [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js)
 
 ## Testing
-
-
 
 ### Testing client stories from UX section of readme
 
 
 
 ### Bugs Discovered 
+
+
+### Solved bugs
+* The background image was not displaying on my index.html page, I used [W3Schools](https://www.w3schools.com/cssref/pr_pos_z-index.asp) and tutor support to help by changing the link to my image and adding `z-index: 1000;` and it worked. 
+* I solved the carousel problems I was having my using [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/). This worked perfectly and I really happy with the results.
+* The gallery page carousel bootstap was not centrallising, so I added it into a container. This worked really well and I am happy with the results.
 * I added an image to all my pages and when I added these images I used ``height: 100vh`` in my CSS but when I added anything below this it caused a huge gap in my code. I spoke to tutor support reagrding this issue and we came to the conclusion that we needed to change it to ``height: calc(100vh - 248px)``
-* I tried doing the carousel on the gallery page using javascript, HTML and CSS with help of this [Youtube](https://www.youtube.com/watch?v=gBzsE0oieio) video. This was not a productive use of my time and as you can see from [this image](assets/testing/carousel-js.png), it did not work well and was not responsive. The below js code is what I was using:
+* I tried doing the carousel on the gallery page using javascript, HTML and CSS with help of this [Youtube](https://www.youtube.com/watch?v=gBzsE0oieio) video. This was not a productive use of my time and as you can see from [this image](/workspace/CI-MS2-primrose_cottage/assets/testing/carousel-js.png), it did not work well and was not responsive. The below js code is what I was using:
 
 <code> const track = document.querySelector('.slideshow-track');
 const slides = Array.from(track.children);
@@ -119,12 +121,9 @@ nextButton.addEventListener('click', e => {
     moveToSlide(track, currentSlide, nextSlide);
 }); </code>
 
-* The gallery page carousel bootstap was not centrallising, so I added it into a container. This worked really well and I am happy with the results.
-
-### Solved bugs
-* The background image was not displaying on my index.html page, I used [W3Schools](https://www.w3schools.com/cssref/pr_pos_z-index.asp) and tutor support to help by changing the link to my image and adding `z-index: 1000;` and it worked. 
-* I solved the carousel problems I was having my using [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/). This worked perfectly and I really happy with the results.
-
+* When I scrolled to the top of my page, the scrolling nav dissapearred, as you can see from [this image](/workspace/CI-MS2-primrose_cottage/assets/testing/scrolling-nav.png)
+* I added some Javascript to the contact form, but it was not popping up or performing as it should do.
+* 
 
 ## Deployment
 
@@ -184,6 +183,8 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 
 ## Media
 * Images for the gallery page have been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
+* Google API map using Javascript code on the contact us page.
+* I used google places Javascript for the image on the explore page.
 
 ## Text 
 * Text for home page descibing the property has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.

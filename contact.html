@@ -50,10 +50,13 @@
                 <div class="col-lg-6">
                     <div id="error_message"></div>
                     <form class="contact-form" id="contact-form" onsubmit="return validation()">
-                    <input type="text" name="fname" id="fullname" class="form-control" placeholder="Name" required>
-                    <input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
-                    <textarea rows="4" name="message" id="message" class="form-control" placeholder="Ask us a question" required></textarea>
-                    <button id="button-send" type="submit" class="btn btn-secondary btn-contact">Send</button>
+                        <label>Name:</label>
+                        <input type="text" name="fname" id="fullname" class="form-control" placeholder="Enter your full name" required>
+                        <label>Your Email:</label>
+                        <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+                        <label>Ask us a question:</label>
+                        <textarea rows="4" name="message" id="message" class="form-control" placeholder="Enter text here" required></textarea>
+                        <button id="button-send" type="submit" class="btn btn-secondary btn-contact">Send</button>
                     </form>
                     </div>
                 <!-------------------------------------------------------map and address-->

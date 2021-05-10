@@ -82,7 +82,7 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 ## CCS Validation
 
 ## Accessibility 
-[Wave WebAIM web accessibility valisation]() was used to ensure the website met a high level 
+[Wave WebAIM web accessibility valisation](https://wave.webaim.org/) was used to ensure the website met a high level 
 Click on the page name to see the result: [Home](assets/testing/wavehome.png) [Gallery]() [Explore]() [Contact]()
 
 ## Performance 

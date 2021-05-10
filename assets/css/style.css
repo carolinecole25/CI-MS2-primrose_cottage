@@ -189,12 +189,20 @@ header.scroll {
     margin-bottom: 5%;
 }
 
+.gallery-description {
+    background-color: #e4dfd749;
+}
+
+.gallery-list {
+    background-color: #e4dfd749;
+}
+
 
 
 /*---------------------------------------------------------------------------------Explore----*/ 
 
 .explore-info {
-    background-color: #e4dfd7b9;
+    background-color: #e4dfd749;
     margin-top: 2px;
     margin-bottom: 2px;
 }
@@ -206,6 +214,7 @@ header.scroll {
     margin-right: 10px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 2px;
 } 
 
 

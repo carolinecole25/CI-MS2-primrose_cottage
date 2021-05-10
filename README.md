@@ -13,7 +13,6 @@ My user goals are:
 * A visuslly appealing website, leaving users returning and wanting to visit Primrose Cottage.
 * Userfriendly wesbite. 
 
-
 Primerose Cottage website will meet users needs by:
 * The website will contain a gallery page which shows interal and external imagery of the cottage.
 * The website will contain images of the town the cottage is location, keeping the theme through the website.
@@ -76,6 +75,19 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) has been used throughout my project.
 
 ## Testing
+
+## HTML Validation
+
+
+## CCS Validation
+
+## Accessibility 
+[Wave WebAIM web accessibility valisation]() was used to ensure the website met a high level 
+Click on the page name to see the result: [Home](assets/testing/wavehome.png) [Gallery]() [Explore]() [Contact]()
+
+## Performance 
+[Google lighthouse](https://developers.google.com/web/tools/lighthouse)
+
 
 ### Testing client stories from UX section of readme
 

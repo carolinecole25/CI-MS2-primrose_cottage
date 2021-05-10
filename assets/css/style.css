@@ -200,13 +200,13 @@ header.scroll {
 }
 
 .map-explore {
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
     overflow: hidden;
-}
+} 
 
 
 /*---------------------------------------------------------------------------------Contact----*/ 
@@ -257,6 +257,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     position: absolute;
+    margin-top: 50px;
 }
 
 .site-footer {

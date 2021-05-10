@@ -121,7 +121,12 @@ nextButton.addEventListener('click', e => {
     moveToSlide(track, currentSlide, nextSlide);
 }); </code>
 
-* When I scrolled to the top of my page, the scrolling nav dissapearred, as you can see from [this image](/workspace/CI-MS2-primrose_cottage/assets/testing/scrolling-nav.png)
+* When I scrolled to the top of my page, the scrolling nav dissapearred, as you can see from [this image](/workspace/CI-MS2-primrose_cottage/assets/testing/scrolling-nav.png). I realised I did not need to use Javascript for the scrolling nav bar (code added below), so I removed this and it worked well.
+<code>`` window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("scroll", window.scrollY > 0);
+}); </code>
+
 * I added some Javascript to the contact form, but it was not popping up or performing as it should do. After speaking to tutor support, it was because there was a doct in the wrong place on the ``var = document.getElementById() `` part of my code.
 * 
 

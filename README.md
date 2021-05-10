@@ -77,13 +77,16 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 ## Testing
 
 ## HTML Validation
-
+The [W3C Markup Validator Service]() was used to validate the HTML of the website. All pages passed with 0 errors.
+Click on the page to see the results: [Home]() [Gallery]() [Explore]() [Contact]()
 
 ## CCS Validation
+The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate the CSS of the website.
+The CSS passed with no errors [See here](assets/testing/css.png)
 
 ## Accessibility 
-[Wave WebAIM web accessibility valisation](https://wave.webaim.org/) was used to ensure the website met a high level 
-Click on the page name to see the result: [Home](assets/testing/wavehome.png) [Gallery]() [Explore]() [Contact]()
+[Wave WebAIM web accessibility valisation](https://wave.webaim.org/) was used to ensure the website met a high level of accessibility and had no errors.
+Click on the page name to see the result: [Home](assets/testing/wavehome.png) [Gallery](assets/testing/wavegallery.png) [Explore](assets/testing/waveexplore.png) [Contact](assets/testing/wavecontact.png)
 
 ## Performance 
 [Google lighthouse](https://developers.google.com/web/tools/lighthouse)

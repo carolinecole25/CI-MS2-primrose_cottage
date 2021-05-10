@@ -50,7 +50,6 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    padding: 40px, 100px;
 }
 
 header .primerose {
@@ -91,7 +90,6 @@ header ul li a {
 }
 
 header.scroll {
-    padding: 5px, 100px;
     background: #ffffffb6;
     z-index: 1000;
 }

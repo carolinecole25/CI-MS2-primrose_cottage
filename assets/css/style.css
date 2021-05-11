@@ -55,16 +55,18 @@ header {
     background-color: #e4dfd7b9;
 }
 
-.navbar {
-    background-color: #e4dfd7b9;
-}
-
 header ul li a {
     color: #000000;
     letter-spacing: 2px;
     text-decoration: none;
     transition: 0.6s;
 }
+
+.navbar {
+    background-color: #ffffffb6;
+}
+
+
 
 
 /*---------------------------------------------------------------------------------Page introduction----*/ 
@@ -109,7 +111,12 @@ header ul li a {
     border: #000000;
     text-decoration: none;
     color: #000000;
-    background-color:#e4dfd7b9;
+    background-color:#e4dfd7;
+}
+
+.button:hover {
+    background-color: #b6afa6fd;
+    color: #000000;
 }
 
 .img-both {
@@ -119,7 +126,6 @@ header ul li a {
 }
 
 /*---------------------------------------------------------------------------------Gallery, Contact & Explore background----*/
-
 
 #porthleven2 {
     background-image: url("../images/IMG_7331.jpg");
@@ -133,7 +139,6 @@ header ul li a {
 }
 /*---------------------------------------------------------------------------------Gallery----*/ 
 
-/*--- Gallery page information */
 
 .gallery-heading {
     margin-left: 10%;
@@ -173,7 +178,6 @@ header ul li a {
 /*---------------------------------------------------------------------------------Explore----*/ 
 
 .explore-info {
-    background-color: #e4dfd749;
     margin-top: 2px;
     margin-bottom: 2px;
 }
@@ -188,6 +192,9 @@ header ul li a {
     margin-bottom: 5px;
 } 
 
+.explore-container {
+    margin-bottom: 20px;
+}
 
 /*---------------------------------------------------------------------------------Contact----*/ 
 
@@ -237,7 +244,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    margin-top: 50px;
 }
 
 .site-footer {

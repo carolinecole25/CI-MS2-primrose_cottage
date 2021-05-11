@@ -2,6 +2,8 @@
 
 https://carolinecole25.github.io/CI-MS2-primrose_cottage/
 
+## Table of Content 
+
 ## Project Goals
 The primary goal for Primrose Cottage is to provide a userfriendly, fresh and innovative website which leaves users knowing all about Primrose Cottage and it's surrounding areas. My target audience will be 25-60 year olds who are looking for a place to stay in Cornwall. 
 
@@ -63,6 +65,11 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Explore](/workspace/CI-MS2-primrose_cottage/assets/wireframes/explore.png)
 * [Contact](/workspace/CI-MS2-primrose_cottage/assets/wireframes/gallery.png)
 
+## Features 
+
+
+
+
 ## Technologies Used 
 
 * [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript) has been used for my find us page map.
@@ -74,24 +81,32 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 
 ## Testing
 
-## HTML Validation
+### HTML Validation
 The [W3C Markup Validator Service]() was used to validate the HTML of the website. All pages passed with 0 errors.
 Click on the page to see the results: [Home]() [Gallery]() [Explore]() [Contact]()
 
-## CCS Validation
+### CCS Validation
 The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate the CSS of the website.
 The CSS passed with no errors [See here](assets/testing/css.png)
 
-## Accessibility 
+### Accessibility 
 [Wave WebAIM web accessibility valisation](https://wave.webaim.org/) was used to ensure the website met a high level of accessibility and had no errors.
 Click on the page name to see the result: [Home](assets/testing/wavehome.png) [Gallery](assets/testing/wavegallery.png) [Explore](assets/testing/waveexplore.png) [Contact](assets/testing/wavecontact.png)
 
-## Performance 
+### Performance 
 [Google lighthouse](https://developers.google.com/web/tools/lighthouse)
 
+### Results:
+
+
+### Browser Compatability
+* Microsoft Edge: Website and user stories work as expected.
+* Google Chrome:
+* Safari: 
+* Firefox: 
 
 ### Testing client stories from UX section of readme
-
+* 
 
 
 ## Bugs

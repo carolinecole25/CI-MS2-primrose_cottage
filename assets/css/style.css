@@ -52,8 +52,12 @@ body {
 header {
     align-self: center;
     transition: 0.6s;
+    background-color: #e4dfd7b9;
 }
 
+.navbar {
+    background-color: #e4dfd7b9;
+}
 
 header ul li a {
     color: #000000;

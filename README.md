@@ -61,9 +61,9 @@ For the rest of the website, I felt the front image was a bit too busy. I change
 ## Wireframes 
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
 * [Home](/workspace/CI-MS2-primrose_cottage/assets/wireframes/home.png)
-* [Gallery](/workspace/CI-MS2-primrose_cottage/assets/wireframes/contact.png)
+* [Gallery](/workspace/CI-MS2-primrose_cottage/assets/wireframes/gallery.png)
 * [Explore](/workspace/CI-MS2-primrose_cottage/assets/wireframes/explore.png)
-* [Contact](/workspace/CI-MS2-primrose_cottage/assets/wireframes/gallery.png)
+* [Contact](/workspace/CI-MS2-primrose_cottage/assets/wireframes/contact.png)
 
 ## Features 
 
@@ -218,5 +218,5 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 * I used google places Javascript for the image on the explore page.
 
 ## Text 
-* Text for home page descibing the property has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
+* Text for home page describing the property has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
 * Text for gallery page has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.

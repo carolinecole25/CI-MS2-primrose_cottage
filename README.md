@@ -2,9 +2,7 @@
 
 https://carolinecole25.github.io/CI-MS2-primrose_cottage/
 
-## UX
-
-### Project Goals
+## Project Goals
 The primary goal for Primrose Cottage is to provide a userfriendly, fresh and innovative website which leaves users knowing all about Primrose Cottage and it's surrounding areas. My target audience will be 25-60 year olds who are looking for a place to stay in Cornwall. 
 
 My user goals are:
@@ -19,13 +17,15 @@ Primerose Cottage website will meet users needs by:
 * All areas of my websute are clearly layed out and easy to use.
 * The website is resposive and easy to navigate through.
 
-
 ### Developer and Business Goals
 * Create a professional website which is user friendly, innovative and stylish.
 * Use Javascript confidently and incorporate it will within in my website.
 * To add this to my portfolio and be be proud of the work I have created.
 * Create a website that shows Primrose Cottage's natural charm effortlessly.
+* Explore pages to have functioning Google API's and then user to find these user friendly.
+* The site to be fully responsive.
 
+## User Experience
 
 ### User Stories 
 * The ability to easily use and navigate the website.
@@ -34,8 +34,6 @@ Primerose Cottage website will meet users needs by:
 * Visual icones and images that suit the theme of the website.
 * A fully funcitoning Explore page with information about the area.
 * Leaves users wanting to escape for a staycation because the website has made the cottage sound idyllic and wanting to explore themselves.
-* 
-
 
 ### Design choices 
 I designed this website using images taken of the town Primrose Cottage is location. I chose to use these images becuase I want the user to know straight away how idyllic the area is so they continue to scroll through the website.
@@ -96,10 +94,8 @@ Click on the page name to see the result: [Home](assets/testing/wavehome.png) [G
 
 
 
-### Bugs Discovered 
+## Bugs
 
-
-### Solved bugs
 * The background image was not displaying on my index.html page, I used [W3Schools](https://www.w3schools.com/cssref/pr_pos_z-index.asp) and tutor support to help by changing the link to my image and adding `z-index: 1000;` and it worked. 
 * I solved the carousel problems I was having my using [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/). This worked perfectly and I really happy with the results.
 * The gallery page carousel bootstap was not centrallising, so I added it into a container. This worked really well and I am happy with the results.
@@ -149,7 +145,7 @@ nextButton.addEventListener('click', e => {
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 1. Log into **Github**.
-2. From the list of repositories on the screen, select **travel**.
+2. From the list of repositories on the screen, select **C1-MS2-primrose_cottage**.
 3. From the menu items near the top of the page, select **settings**.
 4. Selecte **Github Pages** from the options on the left.
 5. Under source click the drop-down menu labelled **None** and selcted **master branch/ main**.
@@ -166,12 +162,12 @@ Then follow these steps:
 1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
 2. After installation, restart browser.
 3. Log into [Gitpod](https://www.gitpod.io/) with your gitpod account.
-4. Navigate to the [Porject Github Repository](https://github.com/carolinecole25/travel)
+4. Navigate to the [Porject Github Repository](https://github.com/carolinecole25/CS1-MS2-primrose_cottage)
 5. Clear the green Gitpod button in the top right corner of the repository.
 6. This will trigger a new gitpos workspace to be created from the code in github where you can work locally. 
 
 To work on the project code within a local IDE such as VSCode, Pycharm:
-1. Follow this link to the [Porject Github Repository](https://github.com/carolinecole25/travel).
+1. Follow this link to the [Porject Github Repository](https://github.com/carolinecole25/CS1-MS2-primrose_cottage).
 2. Under the repository name click **Clone / Download**.
 3. In the clone with HTTPs section, copy the URL for the repository.
 4. In your local IDE open the terminal.
@@ -209,6 +205,3 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 ## Text 
 * Text for home page descibing the property has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
 * Text for gallery page has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
-
-
-## Acknowledgements

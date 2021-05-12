@@ -61,10 +61,10 @@ Primerose Cottage website will meet users needs by:
 
 #### Site Users
 1. The ability to easily use and navigate the website.
-2. Relavant information regarding the cottage, it's location and leaves the users happy with the information provided.
+2. Relevant information regarding the cottage, it's location and leaves the users happy with the information provided.
 3. A functioning contact us page so if the users does have any questions they can get in touch.
-4. Visual icones and images that suit the theme of the website.
-5. A fully funcitoning Explore page with information about the area.
+4. Visual icons and images that suit the theme of the website.
+5. A fully functioning Explore page with information about the area.
 6. Leaves users wanting to escape for a staycation because the website has made the cottage sound idyllic and wanting to explore themselves.
 
 #### Site Owner 
@@ -97,10 +97,10 @@ For the rest of the website, I felt the front image was a bit too busy. I change
 
 ### Wireframes 
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
-* [Home](/workspace/CI-MS2-primrose_cottage/assets/wireframes/home.png)
-* [Gallery](/workspace/CI-MS2-primrose_cottage/assets/wireframes/gallery.png)
-* [Explore](/workspace/CI-MS2-primrose_cottage/assets/wireframes/explore.png)
-* [Contact](/workspace/CI-MS2-primrose_cottage/assets/wireframes/contact.png)
+* [Home](assets/wireframes/home.png)
+* [Gallery](assets/wireframes/gallery.png)
+* [Explore](assets/wireframes/explore.png)
+* [Contact](assets/wireframes/contact.png)
 
 
 ## Technologies Used 
@@ -140,13 +140,44 @@ Click on the page name to see the result: [Home](assets/testing/wavehome.png) [G
 
 ### Testing client stories from UX section 
 
-#### User stories 
-1. 
-2. 
-3. 
-4. 
-5. 
+#### Site Users
+1. The ability to easily use and navigate the website.
+    1. There is a fully functioning navigation bar that adapts to different screen sizes. All the pages are clearly labeled and contain a breif description at the top of the page about the page contents.
 
+2. Relevant information regarding the cottage, it's location and leaves the users happy with the information provided.
+    1. The sites index page has an image of the town the cottage is located. 
+    2. The gallery page features a long desciption of the property and images of the cottage. 
+    3. The Explore page contains information about the area and a map for users to explore further. 
+    4. The contact us page feather a map and a contact us box to ensure site users can contain us for any further information.
+
+3. A functioning contact us page so if the users does have any questions they can get in touch.
+    1. Contact page features a contact form, which pops up with a message if any information has been wrongly inputted.
+
+4. Visual icons and images that suit the theme of the website.
+    1. The websites background imagery is of the local area.
+    2. The imagery on gallery page is of the cottage itself.
+    3. There is imagery featured on every page which is very fitting.
+
+5. A fully functioning Explore page with information about the area.
+    1. The explore page has a fully functioning map using Google API. 
+
+6. Leaves users wanting to escape for a staycation because the website has made the cottage sound idyllic and wanting to explore themselves.
+    1. The website shows of the cottage's natural beauty and the stunning imagery of the area only helps leaves users wanting to escape here.
+
+#### Site Owner 
+7. As the site owner I want the customers to easily navigate the website.  
+    1. 
+
+8. As the site owner I want the customers to be able to contact us with any queries. A pop up should appear if any information inputted into the form is incorrect.
+ 
+
+9. As the site owner I want users to be able to use the Google Map API to find the location of the cottage and see all about the area.
+
+
+10. As the site owner I want users to be able to view the cottage well and for the website to contain a good amount of information.
+
+
+11. As the site owner I want any links on the website to be functioning. 
 
 
 ## Bugs
@@ -218,12 +249,12 @@ Then follow these steps:
 1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
 2. After installation, restart browser.
 3. Log into [Gitpod](https://www.gitpod.io/) with your gitpod account.
-4. Navigate to the [Porject Github Repository](https://github.com/carolinecole25/CS1-MS2-primrose_cottage)
+4. Navigate to the [Porject Github Repository](https://github.com/carolinecole25/CI-MS2-primrose_cottage)
 5. Clear the green Gitpod button in the top right corner of the repository.
 6. This will trigger a new gitpos workspace to be created from the code in github where you can work locally. 
 
 To work on the project code within a local IDE such as VSCode, Pycharm:
-1. Follow this link to the [Porject Github Repository](https://github.com/carolinecole25/CS1-MS2-primrose_cottage).
+1. Follow this link to the [Porject Github Repository](https://github.com/carolinecole25/CI-MS2-primrose_cottage).
 2. Under the repository name click **Clone / Download**.
 3. In the clone with HTTPs section, copy the URL for the repository.
 4. In your local IDE open the terminal.

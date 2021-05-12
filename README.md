@@ -21,8 +21,8 @@
     4. [Performance](#performance)
     5. [Results](#results)
     6. [Browser Compatability](#browser-compatability)
-    7. [Testing client stories from UX section of readme](#testing-client-stories-from-ux-section-of-readme)
-5. [Bugs Fixed](#bugs-fixed)
+    7. [Testing client stories from UX section](#testing-client-stories-from-ux-section)
+5. [Bugs](#bugs)
 6. [Deployment](#deployment)
 7. [How to run this project locally](#how-to-run-this-project-locally)
 8. [Credits](#credits)
@@ -58,12 +58,21 @@ Primerose Cottage website will meet users needs by:
 ## User Experience
 
 ### User Stories 
-* The ability to easily use and navigate the website.
-* Relavant information regarding the cottage, it's location and leaves the users happy with the information provided.
-* A functioning contact us page so if the users does have any questions they can get in touch.
-* Visual icones and images that suit the theme of the website.
-* A fully funcitoning Explore page with information about the area.
-* Leaves users wanting to escape for a staycation because the website has made the cottage sound idyllic and wanting to explore themselves.
+
+#### Site Users
+1. The ability to easily use and navigate the website.
+2. Relavant information regarding the cottage, it's location and leaves the users happy with the information provided.
+3. A functioning contact us page so if the users does have any questions they can get in touch.
+4. Visual icones and images that suit the theme of the website.
+5. A fully funcitoning Explore page with information about the area.
+6. Leaves users wanting to escape for a staycation because the website has made the cottage sound idyllic and wanting to explore themselves.
+
+#### Site Owner 
+7. As the site owner I want the customers to easily navigate the website.  
+8. As the site owner I want the customers to be able to contact us with any queries. A pop up should appear if any information inputted into the form is incorrect.
+9. As the site owner I want users to be able to use the Google Map API to find the location of the cottage and see all about the area.
+10. As the site owner I want users to be able to view the cottage well and for the website to contain a good amount of information.
+11. As the site owner I want any links on the website to be functioning. 
 
 ### Design choices 
 I designed this website using images taken of the town Primrose Cottage is location. I chose to use these images becuase I want the user to know straight away how idyllic the area is so they continue to scroll through the website.
@@ -92,10 +101,6 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Gallery](/workspace/CI-MS2-primrose_cottage/assets/wireframes/gallery.png)
 * [Explore](/workspace/CI-MS2-primrose_cottage/assets/wireframes/explore.png)
 * [Contact](/workspace/CI-MS2-primrose_cottage/assets/wireframes/contact.png)
-
-## Features 
-
-
 
 
 ## Technologies Used 
@@ -133,11 +138,18 @@ Click on the page name to see the result: [Home](assets/testing/wavehome.png) [G
 * Safari: 
 * Firefox: 
 
-### Testing client stories from UX section of readme
-* 
+### Testing client stories from UX section 
+
+#### User stories 
+1. 
+2. 
+3. 
+4. 
+5. 
 
 
-## Bugs Fixed
+
+## Bugs
 
 * The background image was not displaying on my index.html page, I used [W3Schools](https://www.w3schools.com/cssref/pr_pos_z-index.asp) and tutor support to help by changing the link to my image and adding `z-index: 1000;` and it worked. 
 * I solved the carousel problems I was having my using [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/). This worked perfectly and I really happy with the results.
@@ -196,7 +208,8 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 7. Select **save**, it might take 5-10 minutes for Github to finish building the site the first time.
 8. Refresh your **GitHub Pages** section to get the link to the deployed wesbite. 
 
-## How to run this project locally 
+## How to run this project locally
+
 To clone this project into Gitpod you will need:
 1. A Github accoun [Github account](https://github.com/)
 2. Use the Chrome browser.
@@ -238,11 +251,11 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 * Code for explore page places API taken from [Stack Over Flow](https://stackoverflow.com/questions/41970336/update-marker-and-place-types-using-radio-button-google-place) and amended to suit project
 * Code for the form taken from [Youtube](https://www.youtube.com/watch?v=WY4rvU4ImgE) and amended to fit project. 
 
-## Media
+### Media
 * Images for the gallery page have been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
 * Google API map using Javascript code on the contact us page.
 * I used google places Javascript for the image on the explore page.
 
-## Text 
+### Text 
 * Text for home page describing the property has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
 * Text for gallery page has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.

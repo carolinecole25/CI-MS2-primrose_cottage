@@ -13,20 +13,19 @@
     3. [Fonts](#fonts)
     4. [Colours](#colours)
     5. [Wireframes](#wireframes)
-3. [Features]()
-4. [Technologies Used]()
-5. [Testing]()
-    1. [HTML Validation]()
-    2. [CCS Validation]()
-    3. [Accessibility]()
-    4. [Performance]()
-    5. [Results]()
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+    1. [HTML Validation](#html-validation)
+    2. [CSS Validation](#css-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Results](#results)
     6. [Browser Compatability](#browser-compatability)
     7. [Testing client stories from UX section of readme](#testing-client-stories-from-ux-section-of-readme)
-6. [Bugs Fixed](#bugs-fixed)
-7. [Deployment](#deployment)
-8. [How to run this project locally](#how-to-run-this-project-locally)
-9. [Credits](#credits)
+5. [Bugs Fixed](#bugs-fixed)
+6. [Deployment](#deployment)
+7. [How to run this project locally](#how-to-run-this-project-locally)
+8. [Credits](#credits)
     1. [HTML](#html)
     2. [CSS](#css)
     3. [Javascript](#javascript)
@@ -114,7 +113,7 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 The [W3C Markup Validator Service]() was used to validate the HTML of the website. All pages passed with 0 errors.
 Click on the page to see the results: [Home]() [Gallery]() [Explore]() [Contact]()
 
-### CCS Validation
+### CSS Validation
 The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate the CSS of the website.
 The CSS passed with no errors [See here](assets/testing/css.png)
 
@@ -125,7 +124,7 @@ Click on the page name to see the result: [Home](assets/testing/wavehome.png) [G
 ### Performance 
 [Google lighthouse](https://developers.google.com/web/tools/lighthouse)
 
-### Results:
+### Results
 
 
 ### Browser Compatability

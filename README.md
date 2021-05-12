@@ -102,7 +102,6 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Explore](assets/wireframes/explore.png)
 * [Contact](assets/wireframes/contact.png)
 
-
 ## Technologies Used 
 
 * [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript) has been used for my find us page map.

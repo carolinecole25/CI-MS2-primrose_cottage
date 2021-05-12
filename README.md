@@ -224,7 +224,7 @@ nextButton.addEventListener('click', e => {
 }); </code>
 
 * I added some Javascript to the contact form, but it was not popping up or performing as it should do. After speaking to tutor support, it was because there was a doct in the wrong place on the ``var = document.getElementById() `` part of my code.
-* 
+* The maps on the Explore and Gallery page would sometimes appear but sometimes not, having to reload the page to make them reappear. I used [Stack overflow](https://stackoverflow.com/questions/41065766/initmap-is-not-a-function-google-maps-javascript) to help with this issue and it seems to have worked.
 
 ## Deployment
 

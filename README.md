@@ -1,8 +1,37 @@
 # Primerose Cottage
 
-https://carolinecole25.github.io/CI-MS2-primrose_cottage/
+![Responsive Design](assets/testing/responsivedesign.png)
+
+
+[View the deplyed website](https://carolinecole25.github.io/CI-MS2-primrose_cottage/)
 
 ## Table of Content 
+1. [Project Goals](#project-goals)
+2. [User Experience](#user-experience)
+    1. [User Stories](#user-stories)
+    2. [Design choices](#design-choices)
+    3. [Fonts](#fonts)
+    4. [Colours](#colours)
+    5. [Wireframes](#wireframes)
+3. [Features]()
+4. [Technologies Used]()
+5. [Testing]()
+    1. [HTML Validation]()
+    2. [CCS Validation]()
+    3. [Accessibility]()
+    4. [Performance]()
+    5. [Results]()
+    6. [Browser Compatability](#browser-compatability)
+    7. [Testing client stories from UX section of readme](#testing-client-stories-from-ux-section-of-readme)
+6. [Bugs Fixed](#bugs-fixed)
+7. [Deployment](#deployment)
+8. [How to run this project locally](#how-to-run-this-project-locally)
+9. [Credits](#credits)
+    1. [HTML](#html)
+    2. [CSS](#css)
+    3. [Javascript](#javascript)
+    4. [Media](#media)
+    5. [Text](#text)
 
 ## Project Goals
 The primary goal for Primrose Cottage is to provide a userfriendly, fresh and innovative website which leaves users knowing all about Primrose Cottage and it's surrounding areas. My target audience will be 25-60 year olds who are looking for a place to stay in Cornwall. 
@@ -58,7 +87,7 @@ For the rest of the website, I felt the front image was a bit too busy. I change
 * I used images on the gallery page to show the cottage. These images were obtained [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage).
 * I used google maps API for the map on the contact us page.
 
-## Wireframes 
+### Wireframes 
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
 * [Home](/workspace/CI-MS2-primrose_cottage/assets/wireframes/home.png)
 * [Gallery](/workspace/CI-MS2-primrose_cottage/assets/wireframes/gallery.png)
@@ -109,7 +138,7 @@ Click on the page name to see the result: [Home](assets/testing/wavehome.png) [G
 * 
 
 
-## Bugs
+## Bugs Fixed
 
 * The background image was not displaying on my index.html page, I used [W3Schools](https://www.w3schools.com/cssref/pr_pos_z-index.asp) and tutor support to help by changing the link to my image and adding `z-index: 1000;` and it worked. 
 * I solved the carousel problems I was having my using [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/). This worked perfectly and I really happy with the results.
@@ -193,20 +222,18 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 
 ## Credits
 
-#### Code
-
-#### HTML
+### HTML
 * Code for Nav bar taken from [Bootstrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.
 * Code for Scroll Nav Bar taken from [w3schools.com](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp) and amended to fit project.
 * Code for the carousel on gallery page taken from [bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) and amended to fit the project.
 * Code for footer taken from [Code Instituer](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and amended to fit project.
 * Code for explore page API taken from [Stack Over Flow](https://stackoverflow.com/questions/41970336/update-marker-and-place-types-using-radio-button-google-place) and amended to fit project.
 
-#### CSS
+### CSS
 * Gallery page I used code explained from this [YouTube](https://www.youtube.com/watch?v=VYsVOamdB0g) video and amended it to fit my project.
 
 
-#### Javascript
+### Javascript
 * Code for find us page map taken from [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript) and edited to fit project.
 * Code for find us page map taken from [Code institue](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/tree/master/01-GoogleMaps/04-rendering_the_map) and editde to fit project.
 * Code for explore page places API taken from [Stack Over Flow](https://stackoverflow.com/questions/41970336/update-marker-and-place-types-using-radio-button-google-place) and amended to suit project

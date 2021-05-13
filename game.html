@@ -47,11 +47,34 @@
     </header>
     <!-------------------------------------------------------background image and link to quiz and high scores-->
     <section class="scrolling-menu" id="porthleven2">
-        <div class="introduction text-center">
-            <h3 class="introduction-title">Porthleven Quiz</h3>
-            <p class="introduction-description">Explore some of our favourtie places near Primrose Cottage.</p>
-            <a href="game.html" target="_blank" class="button btn btn-primary btn-quiz hvr-grow">Play Quiz</a>
-            <a href="highscores.html" target="_blank" class="button btn btn-primary btn-quiz hvr-grow">High Scores</a>
+        <div class="container">
+            <div id="game" class="">
+                <div id="hud">
+                    <div class="hud-item">
+                        <p id="progress-text" class="hud-prefix">Question</p>
+                        <div id="progress-bar">
+                            <div id="progress-bar-full"></div>
+                        </div>
+                    </div>
+                    <div class="hud-item">
+                        <p class="hud-prefix">Score</p>
+                        <h1 class="hud-main-text" id="score">0</h1>
+                    </div>
+                </div>
+                <div id="question">what is the answer to this question</div>
+                <div class="choice-container">
+                    <p class="choice-prefix">A</p>
+                    <p class="choice-text" data-number="1">Choice 1</p>
+                </div>
+                    <div class="choice-container">
+                    <p class="choice-prefix">B</p>
+                    <p class="choice-text" data-number="2">Choice 2</p>
+                </div>
+                    <div class="choice-container">
+                    <p class="choice-prefix">C</p>
+                    <p class="choice-text" data-number="3">Choice 3</p>
+                </div>
+            </div>
         </div>
     </section>
     
@@ -73,6 +96,7 @@
             </div>
         </div>
     </footer> 
+    <script src="quiz.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>

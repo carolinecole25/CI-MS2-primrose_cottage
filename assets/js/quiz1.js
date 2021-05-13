@@ -31,22 +31,20 @@ function showResults(){
     let numCorrect = 0;
 
     myQuestions.forEach( (currentQuestion, questionNumber) => {
-    const answerContainer = answerContainer[questionNumber];
-    const selector = `input[name=questions${questionNumber}]:checked`;
-    const userAnswer = (answerContainer.querySelector(selector) || {}).value;
-    if(userAnswer === currentQuestion.correctAnswer){
-        numCorrect++;
-        answerContainers[questionNumber].style.color = 'lightgreen';
-    }
-    else {
-        answerContainer[questionNumber].style.color = 'red';
-    }
-});
+        const answerContainer = answerContainer[questionNumber];
+        const selector = `input[name=questions${questionNumber}]:checked`;
+        const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+        if(userAnswer === currentQuestion.correctAnswer){
+            numCorrect++;
+            answerContainers[questionNumber].style.color = 'lightgreen';
+            }
+        else {
+            answerContainer[questionNumber].style.color = 'red';
+        }
+    });
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
 }
 
-
-buildQuiz();
 
 submitButton.addEventListener('click', showResults);
 

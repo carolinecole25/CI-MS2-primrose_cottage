@@ -14,51 +14,51 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: "",
+        question: "What is Porthleven famous for",
         choice1: "",
+        choice2: "Harbour",
+        choice3: "",
+    },
+    {
+        question: "What colour is the Cornwall flag?",
+        choice1: "",
+        choice2: "Black and White",
+        choice3: "",
+    },
+    {
+        question: "The iconic Tate gallery is in which Cornish town?",
+        choice1: "St Ives",
         choice2: "",
         choice3: "",
     },
     {
-        question: "",
+        question: "What is Cornwall famous for?",
         choice1: "",
+        choice2: "Pasties",
+        choice3: "",
+    },
+    {
+        question: "Which beach can is it dangerous to swim in the sea?",
+        choice1: "St Ives",
+        choice2: "Praa Sands",
+        choice3: "Loe Bar",
+    },
+    {
+        question: "Name the only city in Cornwall?",
+        choice1: "Truro",
         choice2: "",
         choice3: "",
     },
     {
-        question: "",
+        question: "How long is the Cornwall coastline?",
         choice1: "",
-        choice2: "",
+        choice2: "697km",
         choice3: "",
     },
     {
-        question: "",
+        question: "What is the most southerly point in Cornwall?",
         choice1: "",
         choice2: "",
-        choice3: "",
-    },
-    {
-        question: "",
-        choice1: "",
-        choice2: "",
-        choice3: "",
-    },
-    {
-        question: "",
-        choice1: "",
-        choice2: "",
-        choice3: "",
-    },
-    {
-        question: "",
-        choice1: "",
-        choice2: "",
-        choice3: "",
-    },
-    {
-        question: "",
-        choice1: "",
-        choice2: "",
-        choice3: "",
+        choice3: "Lizard Point",
     },
 ]

@@ -192,8 +192,15 @@ header ul li a {
 } 
 
 .explore-container {
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
+
+.explore-info {
+    background-color: #e4dfd749;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 
 /*---------------------------------------------------------------------------------Contact----*/ 
 
@@ -255,6 +262,11 @@ footer {
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.text-transform {
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 /*---------------------------------------------------------------------------------Explore----*/

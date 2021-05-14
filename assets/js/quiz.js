@@ -26,44 +26,44 @@ let questions = [
     },	
     {	
         question: "The iconic Tate gallery is in which Cornish town?",		
-        a: "St Ives",	
-        b: "Porthleven",	
-        c: "Newquay",	
-        answer: 1,	
+        choice1: "St Ives",	
+        choice2: "Porthleven",	
+        choice3: "Newquay",	
+        answer: 1
     },	
     {	
         question: "What is Cornwall famous for?",	
-        a: "Ice Cream",	
-        b: "Pasties",	
-        c: "Cakes",	
-        canswer: 2,	
+        choice1: "Ice Cream",	
+        choice2: "Pasties",	
+        choice3: "Cakes",	
+        answer: 2
     },	
     {	
         question: "Which beach can is it dangerous to swim in the sea?",
-        a: "St Ives",	
-        b: "Praa Sands",	
-        c: "Loe Bar",	
-        answer: 3,	
+        choice1: "St Ives",	
+        choice2: "Praa Sands",	
+        choice3: "Loe Bar",	
+        answer: 3	
     },	
     {	
         question: "Name the only city in Cornwall?",		
-        a: "Truro",	
-        b: "St Ives",	
-        c: "Penzance",	
+        choice1: "Truro",	
+        choice2: "St Ives",	
+        choice3: "Penzance",	
         answer: 1
     },	
     {	
         question: "How long is the Cornwall coastline?",	
-        a: "348",	
-        b: "697km",	
-        c: "964",	
-        correctAnswer: 1	
+        choice1: "348",	
+        choice2: "697km",	
+        choice3: "964",	
+        answer: 1	
     },	
     {	
         question: "What is the most southerly point in Cornwall?",	
-        a: "Sennen Cove",	
-        b: "Land's End",	
-        c: "Lizard Point",	
+        choice1: "Sennen Cove",	
+        choice2: "Land's End",	
+        choice3: "Lizard Point",	
         answer: 3	
     }	
 ];
@@ -84,11 +84,14 @@ getNewQuestion = () => {
     }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    console.log(`INDEX: ${questionIndex}`);
     currentQuestion = availableQuestions[questionIndex];
+    console.log(`QUESTION: ${Object.values(currentQuestion)}`);
     question.innerText = currentQuestion.question;
 
     choices.forEach( choice => {
-        const number = choice.dataset["number"];
+        let number = choice.dataset['number'];
+        console.log(`NUMBER: ${number}`);
         choice.innerText = currentQuestion['choice' + number];
     });
 
@@ -105,10 +108,8 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
 
-        const classToApply = 'incorrect';
-        if (selectedAnswer == currentQuestion.answer) {
-            classToApply = 'correct';
-        }
+        const classToApply =
+        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
         selectedChoice.parentElement.classList.add(classToApply);
         getNewQuestion();

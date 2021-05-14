@@ -104,7 +104,13 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-        console.log(selectedAnswer);
+
+        const classToApply = 'incorrect';
+        if (selectedAnswer == currentQuestion.answer) {
+            classToApply = 'correct';
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply);
         getNewQuestion();
     });
 })

@@ -273,14 +273,14 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 
 ### CSS
 * Gallery page I used code explained from this [YouTube](https://www.youtube.com/watch?v=VYsVOamdB0g) video and amended it to fit my project.
-
+* Quiz layout code was taken from this [Youtube](https://www.youtube.com/watch?v=zZdQGs62cR8) video and amended to fit my project. 
 
 ### Javascript
 * Code for find us page map taken from [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript) and edited to fit project.
 * Code for find us page map taken from [Code institue](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/tree/master/01-GoogleMaps/04-rendering_the_map) and editde to fit project.
 * Code for explore page places API taken from [Stack Over Flow](https://stackoverflow.com/questions/41970336/update-marker-and-place-types-using-radio-button-google-place) and amended to suit project
 * Code for the form taken from [Youtube](https://www.youtube.com/watch?v=WY4rvU4ImgE) and amended to fit project. 
-* Code for quiz was taken from [Youtube](https://www.sitepoint.com/simple-javascript-quiz/) and amended to suit my project.
+* Code for quiz was taken from [Youtube](https://www.youtube.com/watch?v=zZdQGs62cR8) and amended to suit my project.
 
 ### Media
 * Images for the gallery page have been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.

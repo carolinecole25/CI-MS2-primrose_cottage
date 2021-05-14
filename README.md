@@ -31,6 +31,7 @@
     3. [Javascript](#javascript)
     4. [Media](#media)
     5. [Text](#text)
+    6. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 The primary goal for Primrose Cottage is to provide a userfriendly, fresh and innovative website which leaves users knowing all about Primrose Cottage and it's surrounding areas. My target audience will be 25-60 year olds who are looking for a place to stay in Cornwall. 
@@ -66,13 +67,15 @@ Primerose Cottage website will meet users needs by:
 4. Visual icons and images that suit the theme of the website.
 5. A fully functioning Explore page with information about the area.
 6. Leaves users wanting to escape for a staycation because the website has made the cottage sound idyllic and wanting to explore themselves.
+7. User to enjoy playing the quiz on cornwall, for it to be fully functioning and easy to use.
 
 #### Site Owner 
-7. As the site owner I want the customers to easily navigate the website.  
-8. As the site owner I want the customers to be able to contact us with any queries. A pop up should appear if any information inputted into the form is incorrect.
-9. As the site owner I want users to be able to use the Google Map API to find the location of the cottage and see all about the area.
-10. As the site owner I want users to be able to view the cottage well and for the website to contain a good amount of information.
-11. As the site owner I want any links on the website to be functioning. 
+8. As the site owner I want the customers to easily navigate the website.  
+9. As the site owner I want the customers to be able to contact us with any queries. A pop up should appear if any information inputted into the form is incorrect.
+10. As the site owner I want users to be able to use the Google Map API to find the location of the cottage and see all about the area.
+11. As the site owner I want users to be able to view the cottage well and for the website to contain a good amount of information.
+12. As the site owner I want any links on the website to be functioning. 
+13. As the site owner, I want the quiz to be fully functioning and the user to have a fun experience. 
 
 ### Design choices 
 I designed this website using images taken of the town Primrose Cottage is location. I chose to use these images becuase I want the user to know straight away how idyllic the area is so they continue to scroll through the website.
@@ -164,21 +167,24 @@ As you can see there was 1 error on the explore and contact page, this is due to
 6. Leaves users wanting to escape for a staycation because the website has made the cottage sound idyllic and wanting to explore themselves.
     1. The website shows of the cottage's natural beauty and the stunning imagery of the area only helps leaves users wanting to escape here.
 
+7. User to enjoy playing the quiz on cornwall, for it to be fully functioning and easy to use.
+
 #### Site Owner 
-7. As the site owner I want the customers to easily navigate the website.  
+8. As the site owner I want the customers to easily navigate the website.  
     1. 
 
-8. As the site owner I want the customers to be able to contact us with any queries. A pop up should appear if any information inputted into the form is incorrect.
+9. As the site owner I want the customers to be able to contact us with any queries. A pop up should appear if any information inputted into the form is incorrect.
  
 
-9. As the site owner I want users to be able to use the Google Map API to find the location of the cottage and see all about the area.
+10. As the site owner I want users to be able to use the Google Map API to find the location of the cottage and see all about the area.
 
 
-10. As the site owner I want users to be able to view the cottage well and for the website to contain a good amount of information.
+11. As the site owner I want users to be able to view the cottage well and for the website to contain a good amount of information.
 
 
-11. As the site owner I want any links on the website to be functioning. 
+12. As the site owner I want any links on the website to be functioning. 
 
+13. As the site owner, I want the quiz to be fully functioning and the user to have a fun experience. 
 
 ## Bugs
 

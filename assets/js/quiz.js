@@ -2,6 +2,8 @@
 
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
+const questionCounterText = document.getElementById("questionCounter");
+const scoreText = document.getElementById("score");
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -54,10 +56,10 @@ let questions = [
     },	
     {	
         question: "How long is the Cornwall coastline?",	
-        choice1: "348",	
+        choice1: "348km",	
         choice2: "697km",	
-        choice3: "964",	
-        answer: 1	
+        choice3: "964km",	
+        answer: 2	
     },	
     {	
         question: "What is the most southerly point in Cornwall?",	
@@ -83,15 +85,16 @@ getNewQuestion = () => {
         return window.location.assign("/end.HTML");
     }
     questionCounter++;
+    questionCounterText.innerText = questionCounter + "/" + MAX_QUESTIONS;
+
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
-    console.log(`INDEX: ${questionIndex}`);
     currentQuestion = availableQuestions[questionIndex];
-    console.log(`QUESTION: ${Object.values(currentQuestion)}`);
     question.innerText = currentQuestion.question;
 
     choices.forEach( choice => {
         let number = choice.dataset['number'];
-        console.log(`NUMBER: ${number}`);
+        
         choice.innerText = currentQuestion['choice' + number];
     });
 
@@ -111,9 +114,23 @@ choices.forEach(choice => {
         const classToApply =
         selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
+        if(classToApply === 'correct'){
+            incrementScore(CORRECT_BONUS);
+        }
+
         selectedChoice.parentElement.classList.add(classToApply);
-        getNewQuestion();
+
+        setTimeout (() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);
     });
 })
+
+
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+};
 
 startGame();

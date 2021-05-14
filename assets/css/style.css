@@ -315,3 +315,22 @@ footer {
     padding: 1.5rem;
     width: 100%;
 }
+
+.correct {
+    background-color: #429b079d;
+}
+
+.incorrect {
+    background: #c90e0ecc;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hud-prefex {
+    text-align: center;
+    font-size: 1.5rem;
+}

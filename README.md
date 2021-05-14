@@ -123,7 +123,8 @@ The CSS passed with no errors [See here](assets/testing/css.png)
 
 ### Accessibility 
 [Wave WebAIM web accessibility valisation](https://wave.webaim.org/) was used to ensure the website met a high level of accessibility and had no errors.
-Click on the page name to see the result: [Home](assets/testing/wavehome.png) [Gallery](assets/testing/wavegallery.png) [Explore](assets/testing/waveexplore.png) [Contact](assets/testing/wavecontact.png) [Quiz]() [Game]() [End of Quiz]()
+Click on the page name to see the result: [Home](assets/testing/wavehome.png) [Gallery](assets/testing/wavegallery.png) [Explore](assets/testing/waveexplore.png) [Contact](assets/testing/wavecontact.png) [Quiz](assets/testing/wavequiz.png) [Game](assets/testing/wavegame.png) [End of Quiz](assets/testing/waveend.png)
+As you can see there was 1 error on the explore and contact page, this is due to an error on the google API code, not my code. 
 
 ### Performance 
 [Google lighthouse](https://developers.google.com/web/tools/lighthouse)

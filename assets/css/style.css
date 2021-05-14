@@ -136,6 +136,21 @@ header ul li a {
     background-attachment: scroll;
     align-items: center;
 }
+
+/*---------------------------------------------------------------------------------Quiz and End of quiz page -----*/
+
+#porthleven3 {
+    background-image: url("../images/IMG_7331.jpg");
+    height: calc(100vh - 116px);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    background-attachment: scroll;
+    align-items: center;
+}
+
+
 /*---------------------------------------------------------------------------------Gallery----*/ 
 
 

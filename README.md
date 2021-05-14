@@ -19,9 +19,8 @@
     2. [CSS Validation](#css-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Results](#results)
-    6. [Browser Compatability](#browser-compatability)
-    7. [Testing client stories from UX section](#testing-client-stories-from-ux-section)
+    5. [Browser Compatability](#browser-compatability)
+    6. [Testing client stories from UX section](#testing-client-stories-from-ux-section)
 5. [Bugs](#bugs)
 6. [Deployment](#deployment)
 7. [How to run this project locally](#how-to-run-this-project-locally)
@@ -130,9 +129,8 @@ Click on the page name to see the result: [Home](assets/testing/wavehome.png) [G
 As you can see there was 1 error on the explore and contact page, this is due to an error on the google API code, not my code. 
 
 ### Performance 
-[Google lighthouse](https://developers.google.com/web/tools/lighthouse)
-
-### Results
+[Google lighthouse](https://developers.google.com/web/tools/lighthouse)was used to test the performance, accessibility, best practices and SEO of the website. Click on the pages to see the results:
+[Home](assets/testing/lhhome.png) [Gallery](assets/testing/lhgallery.png) [Explore](assets/testing/lhexplore.png) [Contact](assets/testing/lhcontact.png) [Quiz](assets/testing/lhquiz.png) [Game](assets/testing/lhgame.png) [End of Quiz](assets/testing/lhend.png)
 
 
 ### Browser Compatability
@@ -180,7 +178,6 @@ As you can see there was 1 error on the explore and contact page, this is due to
 
 
 11. As the site owner I want users to be able to view the cottage well and for the website to contain a good amount of information.
-
 
 12. As the site owner I want any links on the website to be functioning. 
 

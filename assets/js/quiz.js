@@ -1,134 +1,112 @@
-//Code taken from youtube video and amended to fit project 
+// code for the below taken from youtube video and amended to fit project. Linked in README.md
 
-const question = document.querySelector('#question');
-const choices = Array.from(document.querySelector('.choice-text'));
-const progressText = document.querySelector('#progress-text');
-const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progress-bar-full');
+const question = document.getElementById("question");
+const choices = Array.from(document.getElementsByClassName("choice-text"));
 
-let currentQuestion = {}
-let acceptingAnswers = true
-let score = 0
-let questionCounter = 0
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswers = false;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
 
 let questions = [
-    {
-        question: "What is Porthleven famous for",
-        choice1: "",
-        choice2: "Harbour",
-        choice3: "",
-        answer: "2",
-    },
-    {
-        question: "What colour is the Cornwall flag?",
-        choice1: "",
-        choice2: "Black and White",
-        choice3: "",
-        answer: "2",
-    },
-    {
-        question: "The iconic Tate gallery is in which Cornish town?",
-        choice1: "St Ives",
-        choice2: "",
-        choice3: "",
-        answer: "1",
-    },
-    {
-        question: "What is Cornwall famous for?",
-        choice1: "",
-        choice2: "Pasties",
-        choice3: "",
-        answer: "2",
-    },
-    {
+    {	
+        question: "What is Porthleven famous for?",		
+        choice1: "Harbour",	
+        choice2: "Surfing",	
+        choice3: "Fishing",		
+        answer: 1	
+    },	
+    {	
+        question: "What colour is the Cornwall flag?",		
+        choice1: "Red and White",	
+        choice2: "Black and White",	
+        choice3: "Blue and White",		
+        answer: 2	
+    },	
+    {	
+        question: "The iconic Tate gallery is in which Cornish town?",		
+        a: "St Ives",	
+        b: "Porthleven",	
+        c: "Newquay",	
+        answer: 1,	
+    },	
+    {	
+        question: "What is Cornwall famous for?",	
+        a: "Ice Cream",	
+        b: "Pasties",	
+        c: "Cakes",	
+        canswer: 2,	
+    },	
+    {	
         question: "Which beach can is it dangerous to swim in the sea?",
-        choice1: "St Ives",
-        choice2: "Praa Sands",
-        choice3: "Loe Bar",
-        answer: "3",
-    },
-    {
-        question: "Name the only city in Cornwall?",
-        choice1: "Truro",
-        choice2: "",
-        choice3: "",
-        answer: "1",
-    },
-    {
-        question: "How long is the Cornwall coastline?",
-        choice1: "",
-        choice2: "697km",
-        choice3: "",
-        answer: "1",
-    },
-    {
-        question: "What is the most southerly point in Cornwall?",
-        choice1: "",
-        choice2: "",
-        choice3: "Lizard Point",
-        answer: "3",
-    }
-]
+        a: "St Ives",	
+        b: "Praa Sands",	
+        c: "Loe Bar",	
+        answer: 3,	
+    },	
+    {	
+        question: "Name the only city in Cornwall?",		
+        a: "Truro",	
+        b: "St Ives",	
+        c: "Penzance",	
+        answer: 1
+    },	
+    {	
+        question: "How long is the Cornwall coastline?",	
+        a: "348",	
+        b: "697km",	
+        c: "964",	
+        correctAnswer: 1	
+    },	
+    {	
+        question: "What is the most southerly point in Cornwall?",	
+        a: "Sennen Cove",	
+        b: "Land's End",	
+        c: "Lizard Point",	
+        answer: 3	
+    }	
+];
 
-const SCORE_POINTS = 1
-const MAX_QUESTIONS = 8
+const CORRECT_BONUS = 1;
+const MAX_QUESTIONS = 8;
 
 startGame = () => {
-    questionCounter = 0 
-    score = 0
-    availableQuestions = [...questions]
-    getNewQuestion()
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
 }
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-        localStorage.setItem('mostRecentScore', score)
-
-        return window.location.assign('/end.html')
+        return window.location.assign("/end.HTML");
     }
-    questionCounter++
-    progressText.innerText = 'Question ${questionCounter} of ${MAX_QUESTIONS}'
-    progressBarFull.getElementsByClassName.width = '${(questionCounter/MAX_QUESTIONS) * 100}%'
+    questionCounter++;
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
+    question.innerText = currentQuestion.question;
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionsIndex]
-    question.innerText = currentQuestion.question
+    choices.forEach( choice => {
+        const number = choice.dataset["number"];
+        choice.innerText = currentQuestion['choice' + number];
+    });
 
-    choices.forEach(choice => {
-        const number = choice.dataset['number']
-        choice.innerText = currentQuestion['choice' + number]
-    })
+    availableQuestions.splice(questionIndex, 1);
 
-    availableQuestions.splice(questionsIndex, 1)
-
-    acceptingAnswers = true
-}
+    acceptingAnswers = true;
+};
 
 choices.forEach(choice => {
-    choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return
+    choice.addEventListener("click", e => {
+        if(!acceptingAnswers)return;
 
-        acceptingAnswers = false
-        const selectedChoice = e.target
-        const selectedChoice = selectedChoice.dataset['number']
-
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' :
-        'incorrect'
-
-        if(classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
-        }
-        selectedChoice.parentElement.classList.add(classToApply)
-
-        setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
-        }, 1000)
-    })
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset["number"];
+        console.log(selectedAnswer);
+        getNewQuestion();
+    });
 })
 
-incrementScore = num => {
-    score +=num
-    scoreText.innerText
-}
+startGame();

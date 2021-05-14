@@ -282,28 +282,36 @@ footer {
 
 /*---------------------------------------------------------------------------------Game----*/
 
-.container-game {
-    background-color: #ffffffb6;
+/*------ some of the below code used from youtube video and amended to fit my website. Link in readme.md https://www.youtube.com/watch?v=IK257Ln0MZc*/
+
+#game {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .choice-container {
-    background: #ffffffb6;
-    font: #000000;
-    margin-bottom: 0.8rem;
-    border-radius: 4px;
     display: flex;
-    min-width: 80rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+    border: 0.1rem solid #e4dfd7;
+    background-color: #ffffffb6;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    transform: scale(1.02);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    box-shadow: 0 0.4rem 0 #e4dfd7b9;
 }
 
 .choice-prefix {
-    padding: 2rem 2.5rem;
-} 
+    padding: 1.5rem 2.5rem;
+    background-color: #e4dfd7;
+    color: #000000;
+}
 
 .choice-text {
-    padding: 2rem;
-} 
+    padding: 1.5rem;
+    width: 100%;
+}

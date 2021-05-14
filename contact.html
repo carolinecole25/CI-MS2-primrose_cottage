@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-----------------------------------------------------links-->
+    <!--links-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
@@ -15,7 +15,7 @@
 
 <body>
 
-    <!-------------------------------------------------Header and site navigation-->
+    <!--Header and site navigation-->
     <!--Code for the below taken from Bootstrap, linked in README.md-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -45,7 +45,7 @@
     </div>
         </nav>
     </header>
-    <!-------------------------------------------------------background image and page introduction-->
+    <!--background image and page introduction-->
     <section class="scrolling-menu" id="porthleven2">
             <div class="introduction text-center">
             <h3 class="introduction-title">Contact us</h3>
@@ -53,52 +53,49 @@
         </div>
     </section>
 
-    <!-------------------------------------------------------Subheading-->
+    <!---Subheading-->
     <div class="gallery-heading">
         <h4>Primrose Cottage</h4>
         <p>Porthleven - Cornwall, South Coast</p>
     </div>
 
-    <!-------------------------------------------------------contact form-->
+    <!--contact form-->
         <div class="container contact-content">
             <div class="row">
                 <div class="col-lg-6">
                     <div id="error_message"></div>
                     <form class="contact-form" id="contact-form" onsubmit="return validation()">
-                        <label>Name:</label>
+                        <label for="fname">Name:</label>
                         <input type="text" name="fname" id="fullname" class="form-control" placeholder="Enter your full name" required>
-                        <label>Your Email:</label>
+                        <label for="email">Your Email:</label>
                         <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email" required>
-                        <label>Ask us a question:</label>
+                        <label for="message">Ask us a question:</label>
                         <textarea rows="4" name="message" id="message" class="form-control" placeholder="Enter text here" required></textarea>
                         <button id="button-send" type="submit" class="btn btn-secondary btn-contact">Send</button>
                     </form>
                     </div>
-                <!-------------------------------------------------------map and address-->
-                <div class="col-lg-6" id="map" alt="Location"></div>
+                <!--map and address-->
+                <div class="col-lg-6" id="map"></div>
             </div>
         </div>
 
-    <!------------------------------------------------------Site footer-->
+    <!--Site footer-->
 
     <!--credit: code taken from https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download and edited to fit project-->
     <footer class="container-fluid text-center">
         <div class="row site-footer">
             <div class="col-sm-4">
                 <a href="contact.html" class="hvr-grow" rel="noreferrer"><span>Primrose Cottage <br>Unity Road <br> Porthleven <br>TR13 9DA</span></a>
-                <i class= aria-hidden="true"></i>
             </div>
             <div class="col-sm-4 text-transform">
                 <a href="index.html" class="hvr-grow">Primrose Cottage</a>
             </div>
             <div class="col-sm-4">
                 <a href="https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage" target="_blank" class="hvr-grow" rel="noreferrer"><span>Book with Above the Beach</span></a>
-                <i class= aria-hidden="true"></i>
             </div>
         </div>
     </footer> 
     <script src="assets/js/contact-map.js"></script>
-    <script scr="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBBh8zYahKNYOdh1WXs7q4nGIR3RigUkY&callback=initMap&libraries=&v=weekly"></script>
     <script src="assets/js/contact-form.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -106,6 +103,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
-    
-</body>
-</html>
+ 

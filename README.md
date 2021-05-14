@@ -270,17 +270,17 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 * Code for the carousel on gallery page taken from [bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) and amended to fit the project.
 * Code for footer taken from [Code Instituer](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and amended to fit project.
 * Code for explore page API taken from [Stack Over Flow](https://stackoverflow.com/questions/41970336/update-marker-and-place-types-using-radio-button-google-place) and amended to fit project.
-
+* Code for the quiz, both end page and game page were taken from [James Q Quick 'Build a Quiz App'](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) videos and amended to fit my project. 
 ### CSS
 * Gallery page I used code explained from this [YouTube](https://www.youtube.com/watch?v=VYsVOamdB0g) video and amended it to fit my project.
-* Quiz layout code was taken from this [Youtube](https://www.youtube.com/watch?v=zZdQGs62cR8) video and amended to fit my project. 
+* Quiz layout code was taken from this [James Q Quick 'Build a Quiz App'](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) video and amended to fit project.
 
 ### Javascript
 * Code for find us page map taken from [Google API](https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#maps_marker_clustering-javascript) and edited to fit project.
 * Code for find us page map taken from [Code institue](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/tree/master/01-GoogleMaps/04-rendering_the_map) and editde to fit project.
 * Code for explore page places API taken from [Stack Over Flow](https://stackoverflow.com/questions/41970336/update-marker-and-place-types-using-radio-button-google-place) and amended to suit project
 * Code for the form taken from [Youtube](https://www.youtube.com/watch?v=WY4rvU4ImgE) and amended to fit project. 
-* Code for quiz was taken from [Youtube](https://www.youtube.com/watch?v=zZdQGs62cR8) and amended to suit my project.
+* Code for quiz java script page and end javascript page taken from [James Q Quick 'Build a Quiz App'](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) video and amended to fit project. 
 
 ### Media
 * Images for the gallery page have been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
@@ -290,3 +290,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 ### Text 
 * Text for home page describing the property has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
 * Text for gallery page has been taken from [Above the Beach](https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage) website.
+
+### Acknowledgements 
+* My mentor has really pushed me through this project, it was hard work but I am so pleased with the outcome of it.
+* Tutor Support have helped me a lot, they knew when to help me with certain issues and where to send me for research on particular issues. 

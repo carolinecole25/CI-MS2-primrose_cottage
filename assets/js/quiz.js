@@ -41,7 +41,7 @@ let questions = [
         answer: 2
     },	
     {	
-        question: "Which beach can is it dangerous to swim in the sea?",
+        question: "Which beach is it dangerous to swim in the sea?",
         choice1: "St Ives",	
         choice2: "Praa Sands",	
         choice3: "Loe Bar",	
@@ -82,7 +82,8 @@ startGame = () => {
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-        return window.location.assign("/end.HTML");
+        localStorage.setItem('mostRecentScore', score);
+        return window.location.assign("/endquiz.html");
     }
     questionCounter++;
     questionCounterText.innerText = questionCounter + "/" + MAX_QUESTIONS;
@@ -134,3 +135,6 @@ incrementScore = num => {
 };
 
 startGame();
+
+
+

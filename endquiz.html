@@ -47,39 +47,14 @@
     </header>
     <!-------------------------------------------------------background image and link to quiz and high scores-->
     <section class="scrolling-menu" id="porthleven2">
-            <div class="introduction text-center">
-            <h3 class="introduction-title">Cornwall Quiz</h3>
-            <p class="introduction-description">Please enjoy the short quiz we have put together on Cornwall. Good luck!</p>
+        <div class="introduction text-center container">
+            <!--code taken from youtube video and amended to fit projet. Linked in README.md file.-->
+            <h3 class="introduction-title">Congratulations! You scored </h3>
+            <h2 class="introduction-title" id="finalScore"></h2>
+            <a href="game1.html" class="button btn btn-primary hvr-grow">Play Again</a>
+        </div>
     </section>
-
-    <!--code taken from youtube video and amended to fit projet. Linked in README.md file.-->
-    <div class="container">
-      <div id="game" class="flex-center flex-column">
-          <div id="hud">
-              <div id="hud-item">
-                  <p class="hud-prefix">Question</p>
-                  <h1 class="hud-main-text" id="questionCounter"></h1>
-              </div>
-              <div id="hud-item">
-                  <p class="hud-prefix">Score</p>
-                  <h1 class="hud-main-text" id="score">0</h1>
-              </div>
-          </div>
-        <h3 id="question">What is this quiz?</h3>
-        <div class="choice-container">
-            <p class="choice-prefix">A</p>
-            <p class="choice-text" data-number="1">choice1</p>
-        </div>
-        <div class="choice-container">
-            <p class="choice-prefix">B</p>
-            <p class="choice-text" data-number="2">choice2</p>
-        </div>
-        <div class="choice-container">
-            <p class="choice-prefix">C</p>
-            <p class="choice-text" data-number="3">choice3</p>
-        </div>
-      </div>
-    </div>
+    
     <!------------------------------------------------------Site footer-->
 
     <!--credit: code taken from Code Institute, linked in bio and edited to fit project-->
@@ -94,11 +69,11 @@
             </div>
             <div class="col-sm-4">
                 <a href="https://www.abovebeachcottages.co.uk/cottage/prmros-primrose-cottage" target="_blank" class="hvr-grow" rel="noreferrer"><span>Book with Above the Beach</span></a>
-                <i class= aria-hidden="true"></i>
+                <i aria-hidden="true"></i>
             </div>
         </div>
     </footer> 
-    <script src="assets/js/quiz.js"></script>
+    <script src="assets/js/end.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>

@@ -103,6 +103,8 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Gallery](assets/wireframes/gallery.png)
 * [Explore](assets/wireframes/explore.png)
 * [Contact](assets/wireframes/contact.png)
+* [Quiz](assets/wireframes/quiz.png)
+* [Game](assets/wireframes/game.png)
 
 ## Technologies Used 
 

@@ -20,8 +20,7 @@
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
     5. [Javascript](#javascript)
-    6. [Browser Compatability](#browser-compatability)
-    7. [Testing client stories from UX section](#testing-client-stories-from-ux-section)
+    6. [Testing client stories from UX section](#testing-client-stories-from-ux-section)
 5. [Bugs](#bugs)
 6. [Deployment](#deployment)
 7. [How to run this project locally](#how-to-run-this-project-locally)
@@ -118,11 +117,11 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 
 ### HTML Validation
 The [W3C Markup Validator Service](https://validator.w3.org/) was used to validate the HTML of the website. All pages passed with 0 errors.
-Click on the page to see the results: [Home](assets/testing/html.png) [Gallery](assets/testing/html.png) [Explore](assets/testing/html.png) [Contact](assets/testing/html.png) [Quiz](assets/testing/html.png) [Game](assets/testing/html.png) [End of Quiz](assets/testing/html.png)
+Click on the page to see the results: [Home](assets/testing/htmlhome.png) [Gallery](assets/testing/htmlgallery.png) [Explore](assets/testing/htmlexplore.png) [Contact](assets/testing/htmlcontact.png) [Quiz](assets/testing/htmlquiz.png) [Game](assets/testing/htmlgame.png) [End of Quiz](assets/testing/htmlend.png)
 
 ### CSS Validation
-The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate the CSS of the website.
-The CSS passed with no errors [See here](assets/testing/css.png)
+The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to validate the CSS of the website.
+The CSS passed with no errors [Home](assets/testing/csshome.png) [Gallery](assets/testing/cssgallery.png) [Explore](assets/testing/cssexplore.png) [Contact](assets/testing/csscontact.png) [Quiz](assets/testing/cssquiz.png) [Game](assets/testing/cssgame.png) [End of Quiz](assets/testing/cssend.png)
 
 ### Accessibility 
 [Wave WebAIM web accessibility valisation](https://wave.webaim.org/) was used to ensure the website met a high level of accessibility and had no errors.
@@ -130,18 +129,13 @@ Click on the page name to see the result: [Home](assets/testing/wavehome.png) [G
 As you can see there was 1 error on the explore and contact page, this is due to an error on the google API code, not my code. 
 
 ### Performance 
-[Google lighthouse](https://developers.google.com/web/tools/lighthouse)was used to test the performance, accessibility, best practices and SEO of the website. Click on the pages to see the results:
+[Google lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test the performance, accessibility, best practices and SEO of the website. Click on the pages to see the results:
 [Home](assets/testing/lhhome.png) [Gallery](assets/testing/lhgallery.png) [Explore](assets/testing/lhexplore.png) [Contact](assets/testing/lhcontact.png) [Quiz](assets/testing/lhquiz.png) [Game](assets/testing/lhgame.png) [End of Quiz](assets/testing/lhend.png)
 The performance of my website 
 
 ### Javascript
-[]()
-
-### Browser Compatability
-* Microsoft Edge: Website and user stories work as expected.
-* Google Chrome:
-* Safari: 
-* Firefox: 
+[JS Hint](https://jshint.com/) was used to test the Javascript code. Click on the pages to see the result:
+[Contact Form](assets/testing/jscontactform.png) [Contact Map](assets/testing/jscontactmap.png) [Explore Map](assets/testing/jsexplore.png) [Quiz](assets/testing/jsquiz.png) [Quiz end page](assets/testing/jsend.png) 
 
 ### Testing client stories from UX section 
 

@@ -194,6 +194,7 @@ The performance of my website
 * The gallery page carousel bootstap was not centrallising, so I added it into a container. This worked really well and I am happy with the results.
 * I added an image to all my pages and when I added these images I used ``height: 100vh`` in my CSS but when I added anything below this it caused a huge gap in my code. I spoke to tutor support reagrding this issue and we came to the conclusion that we needed to change it to ``height: calc(100vh - 248px)``
 * I tried doing the carousel on the gallery page using javascript, HTML and CSS with help of this [Youtube](https://www.youtube.com/watch?v=gBzsE0oieio) video. This was not a productive use of my time and as you can see from [this image](/workspace/CI-MS2-primrose_cottage/assets/testing/carousel-js.png), it did not work well and was not responsive. The below js code is what I was using:
+* The google maps API in the expore and contact page would dissapear from the page and you would need to refresh for it reappear. I spoke to tutor support and found an issue online stating the map script tag needs to be higher up on the page. I changed the order of this and it now works.
 
 <code> const track = document.querySelector('.slideshow-track');
 const slides = Array.from(track.children);

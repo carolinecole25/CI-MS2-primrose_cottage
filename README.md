@@ -116,25 +116,25 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 ## Testing
 
 ### HTML Validation
-The [W3C Markup Validator Service](https://validator.w3.org/) was used to validate the HTML of the website. All pages passed with 0 errors.
+The [W3C Markup Validator Service](https://validator.w3.org/) was used to validate the HTML of the website. All errors were from bootstrap so all pages passed with 0 errors.
 Click on the page to see the results: [Home](assets/testing/htmlhome.png) [Gallery](assets/testing/htmlgallery.png) [Explore](assets/testing/htmlexplore.png) [Contact](assets/testing/htmlcontact.png) [Quiz](assets/testing/htmlquiz.png) [Game](assets/testing/htmlgame.png) [End of Quiz](assets/testing/htmlend.png)
 
 ### CSS Validation
 The [W3C Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to validate the CSS of the website.
-The CSS passed with no errors [Home](assets/testing/csshome.png) [Gallery](assets/testing/cssgallery.png) [Explore](assets/testing/cssexplore.png) [Contact](assets/testing/csscontact.png) [Quiz](assets/testing/cssquiz.png) [Game](assets/testing/cssgame.png) [End of Quiz](assets/testing/cssend.png)
+The CSS passed with no errors, click the links to see evidence: [Home](assets/testing/csshome.png) [Gallery](assets/testing/cssgallery.png) [Explore](assets/testing/cssexplore.png) [Contact](assets/testing/csscontact.png) [Quiz](assets/testing/cssquiz.png) [Game](assets/testing/cssgame.png) [End of Quiz](assets/testing/cssend.png)
 
 ### Accessibility 
 [Wave WebAIM web accessibility valisation](https://wave.webaim.org/) was used to ensure the website met a high level of accessibility and had no errors.
 Click on the page name to see the result: [Home](assets/testing/wavehome.png) [Gallery](assets/testing/wavegallery.png) [Explore](assets/testing/waveexplore.png) [Contact](assets/testing/wavecontact.png) [Quiz](assets/testing/wavequiz.png) [Game](assets/testing/wavegame.png) [End of Quiz](assets/testing/waveend.png)
-As you can see there was 1 error on the explore and contact page, this is due to an error on the google API code, not my code. 
+As you can see there was 1 error on the explore and contact page, this is due to an error on the google API code, not my code. Therefore all pages passed with zero errors.
 
 ### Performance 
 [Google lighthouse](https://developers.google.com/web/tools/lighthouse) was used to test the performance, accessibility, best practices and SEO of the website. Click on the pages to see the results:
 [Home](assets/testing/lhhome.png) [Gallery](assets/testing/lhgallery.png) [Explore](assets/testing/lhexplore.png) [Contact](assets/testing/lhcontact.png) [Quiz](assets/testing/lhquiz.png) [Game](assets/testing/lhgame.png) [End of Quiz](assets/testing/lhend.png)
-The performance of my website 
+The performance of my website is something I would work on in future, some pages I am happy with but other's containing images, lots are javascript and google API's I would work on improving in the future.
 
 ### Javascript
-[JS Hint](https://jshint.com/) was used to test the Javascript code. Click on the pages to see the result:
+[JS Hint](https://jshint.com/) was used to test the Javascript code. All pages passed with zerp errors, click on the pages to see the result:
 [Contact Form](assets/testing/jscontactform.png) [Contact Map](assets/testing/jscontactmap.png) [Explore Map](assets/testing/jsexplore.png) [Quiz](assets/testing/jsquiz.png) [Quiz end page](assets/testing/jsend.png) 
 
 ### Testing client stories from UX section 

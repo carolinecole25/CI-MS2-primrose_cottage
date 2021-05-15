@@ -188,7 +188,6 @@ header ul li a {
 }
 
 
-
 /*---------------------------------------------------------------------------------Explore----*/ 
 
 .explore-info {
@@ -246,7 +245,7 @@ header ul li a {
     background-color: #e4dfd7b9;
     color: #000000;
     border: #e4dfd7b9;
-    margin-top: 2px;
+    margin-top: 5px;
     margin-bottom: 2px;
 }
 
@@ -255,6 +254,11 @@ header ul li a {
     color: #000000;
     background-color: #e4dfd7b9;
     padding: 0;
+}
+
+.contact-form label {
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 /*---------------------------------------------------------------------------------footer----*/

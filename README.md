@@ -66,7 +66,7 @@ Primerose Cottage website will meet users needs by:
 4. Visual icons and images that suit the theme of the website.
 5. A fully functioning Explore page with information about the area.
 6. Leaves users wanting to escape for a staycation because the website has made the cottage sound idyllic and wanting to explore themselves.
-7. User to enjoy playing the quiz on cornwall, for it to be fully functioning and easy to use.
+7. User to enjoy playing the quiz on Cornwall, for it to be fully functioning and easy to use.
 
 #### Site Owner 
 8. As the site owner I want the customers to easily navigate the website.  

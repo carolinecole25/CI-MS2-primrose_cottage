@@ -166,7 +166,7 @@ The performance of my website is something I would work on in future, some pages
     1. The website shows of the cottage's natural beauty and the stunning imagery of the area only helps leaves users wanting to escape here.
 
 7. User to enjoy playing the quiz on cornwall, for it to be fully functioning and easy to use.
-
+    1. The website 
 #### Site Owner 
 8. As the site owner I want the customers to easily navigate the website.  
     1. 

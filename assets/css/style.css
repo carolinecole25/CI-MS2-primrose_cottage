@@ -77,8 +77,8 @@ header ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 800px;
+    height: 15rem;
+    width: 100rem;
     margin-left: 20%;
     margin-right: 20%;
 }

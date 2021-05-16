@@ -166,13 +166,17 @@ The performance of my website is something I would work on in future, some pages
     1. The website shows of the cottage's natural beauty and the stunning imagery of the area only helps leaves users wanting to escape here.
 
 7. User to enjoy playing the quiz on cornwall, for it to be fully functioning and easy to use.
-    1. The website 
+    1. The website contains a fully functioning quiz which is easy to use and is in keeping with the theme of the website.
+
 #### Site Owner 
 8. As the site owner I want the customers to easily navigate the website.  
-    1. 
+    1. The site is very easy to navigate especially with the fixed nav bar meaning users can get to different pages of the website easily.
+    2. Each page is clearly labelled
+    3. There is an introduction to each page so the user knows at a quick glance what the page shows.
+    4. All pages are fully responsive. 
 
 9. As the site owner I want the customers to be able to contact us with any queries. A pop up should appear if any information inputted into the form is incorrect.
- 
+    1. The contact page has a fully fuctioning contact form which has a pop up appear when something is not entered properly. [See here]()
 
 10. As the site owner I want users to be able to use the Google Map API to find the location of the cottage and see all about the area.
 

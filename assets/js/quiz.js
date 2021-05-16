@@ -11,6 +11,8 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+// Quiz questions and answers 
+
 let questions = [
     {	
         question: "What is Porthleven famous for?",		
@@ -69,6 +71,8 @@ let questions = [
         answer: 3	
     }	
 ];
+
+// Questions and scoring 
 
 const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = 8;

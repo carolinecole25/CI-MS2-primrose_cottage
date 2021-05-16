@@ -176,10 +176,10 @@ The performance of my website is something I would work on in future, some pages
     4. All pages are fully responsive. 
 
 9. As the site owner I want the customers to be able to contact us with any queries. A pop up should appear if any information inputted into the form is incorrect.
-    1. The contact page has a fully fuctioning contact form which has a pop up appear when something is not entered properly. [See here]()
+    1. The contact page has a fully fuctioning contact form which has a pop up appear when something is not entered properly. [See here](assets/testing/uscontactform.png)
 
 10. As the site owner I want users to be able to use the Google Map API to find the location of the cottage and see all about the area.
-
+    1. 
 
 11. As the site owner I want users to be able to view the cottage well and for the website to contain a good amount of information.
 

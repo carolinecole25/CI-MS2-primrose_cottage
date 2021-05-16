@@ -3,7 +3,7 @@
 ![Responsive Design](assets/testing/responsivedesign.png)
 
 
-[View the deplyed website](https://carolinecole25.github.io/CI-MS2-primrose_cottage/)
+[View the deployed website](https://carolinecole25.github.io/CI-MS2-primrose_cottage/)
 
 ## Table of Content 
 1. [Project Goals](#project-goals)

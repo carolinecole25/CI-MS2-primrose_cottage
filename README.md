@@ -179,13 +179,20 @@ The performance of my website is something I would work on in future, some pages
     1. The contact page has a fully fuctioning contact form which has a pop up appear when something is not entered properly. [See here](assets/testing/uscontactform.png)
 
 10. As the site owner I want users to be able to use the Google Map API to find the location of the cottage and see all about the area.
-    1. 
+    1. Both google map API's are fully functioning and gives the user a goog idea about the area. [See here](assets/testing/usapicontact.png) and [here](assets/testing/usapiexplore.png)
 
 11. As the site owner I want users to be able to view the cottage well and for the website to contain a good amount of information.
+    1. The user is able to get information on the gallery page, including images and informationon the cottage.
+    2. The user is able to get information about the area, cottage and location on the explore page. This includes a google map API and information about the area.
+    3. The user can get more information using the contact page along with a better idea of the location of the area on the contact page.
 
 12. As the site owner I want any links on the website to be functioning. 
+    1. Links are all working well. There is a link on the home page taking the custome to the booking website and a link on the footer to this page.
+    2. The nav bar is fully functioning. 
+    3. The link to the quiz is fully functioning.
 
 13. As the site owner, I want the quiz to be fully functioning and the user to have a fun experience. 
+    1. The quiz is fully function and gives the user something fun and hopefully makes the website a more memorable experience.
 
 ## Bugs
 
